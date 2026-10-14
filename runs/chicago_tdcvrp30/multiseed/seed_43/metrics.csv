@@ -1,0 +1,5 @@
+task_id,scenario_id,planner,departure_local,search_objective_travel_sec,ex_post_road_travel_sec,ex_post_total_vehicle_elapsed_sec,observed_edge_share,search_wall_sec,iterations,num_vehicles_used,vehicle_loads
+task_0000,2025-06-05_0800,static,2025-06-05 08:00:00,3831.0256,4195.0746,7795.075,0.145969,0.1338,5000,5,"45,32,12,25,28"
+task_0000,2025-06-05_0800,oracle,2025-06-05 08:00:00,4249.5643,4250.9997,7851.0,0.111111,0.3297,5000,5,"23,41,29,12,37"
+task_0000,2025-06-06_0800,static,2025-06-06 08:00:00,3831.0256,4114.6537,7714.653,0.17833,0.1348,5000,5,"45,32,12,25,28"
+task_0000,2025-06-06_0800,oracle,2025-06-06 08:00:00,4231.0301,4223.7301,7823.73,0.115974,0.3191,5000,5,"44,33,30,31,4"

@@ -1,0 +1,10 @@
+{
+  "pairs_checked": 200,
+  "time_cost_passed": 200,
+  "path_traversal_count_consistent": 200,
+  "max_absolute_time_error_sec": 0.0004998728930942775,
+  "tolerance_sec": 0.01,
+  "time_cost_all_pass": true,
+  "route_edge_counts_all_match": true,
+  "meaning": "100 morning +100 evening rows, same 100 OD pairs at each date/time. Time regression is authoritative; path tie counts are diagnostic."
+}

@@ -1,0 +1,1973 @@
+[
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "planner": "static",
+    "routes": [
+      [
+        15,
+        29,
+        17,
+        28,
+        2
+      ],
+      [
+        9,
+        6,
+        14,
+        26,
+        22,
+        19,
+        11,
+        18,
+        25
+      ],
+      [
+        24,
+        8,
+        10,
+        20,
+        7,
+        3,
+        23
+      ],
+      [
+        4,
+        30,
+        5,
+        12,
+        13,
+        1,
+        27,
+        21
+      ],
+      [
+        16
+      ]
+    ],
+    "loads": [
+      28,
+      36,
+      38,
+      34,
+      6
+    ],
+    "iterations": 1500,
+    "search_seed": 42,
+    "od_step_minutes": 20.0,
+    "od_hours": 4.0,
+    "search_objective_travel_sec": 4318.573632050428,
+    "search_wall_sec": 0.04146162141114473,
+    "search_history": [
+      {
+        "restart": 0,
+        "iteration": 250,
+        "best_travel_sec": 5554.242
+      },
+      {
+        "restart": 0,
+        "iteration": 750,
+        "best_travel_sec": 4492.412
+      },
+      {
+        "restart": 1,
+        "iteration": 500,
+        "best_travel_sec": 4492.412
+      },
+      {
+        "restart": 1,
+        "iteration": 750,
+        "best_travel_sec": 4318.574
+      }
+    ],
+    "cache_info": {
+      "hits": 5290,
+      "misses": 1815,
+      "maxsize": 150000,
+      "currsize": 1815
+    },
+    "road_exact_ex_post": {
+      "realized_travel_sec": 4747.056447150011,
+      "realized_total_elapsed_vehicle_sec": 8347.056,
+      "observed_edge_entries": 78,
+      "edge_traversals": 520,
+      "observed_entry_share": 0.15,
+      "evaluation_protocol": "Ex-post TDSP road-leg rerouting; fixed customer order/assignment, not fixed road path"
+    },
+    "route_details": [
+      {
+        "vehicle": 0,
+        "customer_ids": [
+          15,
+          29,
+          17,
+          28,
+          2
+        ],
+        "load": 28,
+        "elapsed_sec": 1517.662,
+        "legs": [
+          {
+            "customer_id": 15,
+            "from_node": "261154311",
+            "to_node": "258022686",
+            "road_tdsp_sec": 160.048,
+            "arrival_local": "2025-06-05 08:02:40.048465728",
+            "measured_edge_entries": 1,
+            "edge_traversals": 17
+          },
+          {
+            "customer_id": 29,
+            "from_node": "258022686",
+            "to_node": "261199561",
+            "road_tdsp_sec": 88.336,
+            "arrival_local": "2025-06-05 08:06:08.384690165",
+            "measured_edge_entries": 0,
+            "edge_traversals": 11
+          },
+          {
+            "customer_id": 17,
+            "from_node": "261199561",
+            "to_node": "261184867",
+            "road_tdsp_sec": 69.079,
+            "arrival_local": "2025-06-05 08:09:17.463609576",
+            "measured_edge_entries": 0,
+            "edge_traversals": 5
+          },
+          {
+            "customer_id": 28,
+            "from_node": "261184867",
+            "to_node": "10556426050",
+            "road_tdsp_sec": 217.513,
+            "arrival_local": "2025-06-05 08:14:54.976866021",
+            "measured_edge_entries": 2,
+            "edge_traversals": 25
+          },
+          {
+            "customer_id": 2,
+            "from_node": "10556426050",
+            "to_node": "3188221426",
+            "road_tdsp_sec": 298.776,
+            "arrival_local": "2025-06-05 08:21:53.752854719",
+            "measured_edge_entries": 0,
+            "edge_traversals": 39
+          },
+          {
+            "customer_id": 0,
+            "from_node": "3188221426",
+            "to_node": "261154311",
+            "road_tdsp_sec": 83.909,
+            "arrival_local": "2025-06-05 08:25:17.661661515",
+            "measured_edge_entries": 6,
+            "edge_traversals": 8
+          }
+        ]
+      },
+      {
+        "vehicle": 1,
+        "customer_ids": [
+          9,
+          6,
+          14,
+          26,
+          22,
+          19,
+          11,
+          18,
+          25
+        ],
+        "load": 36,
+        "elapsed_sec": 2364.933,
+        "legs": [
+          {
+            "customer_id": 9,
+            "from_node": "261154311",
+            "to_node": "27446756",
+            "road_tdsp_sec": 86.66,
+            "arrival_local": "2025-06-05 08:01:26.659903728",
+            "measured_edge_entries": 4,
+            "edge_traversals": 9
+          },
+          {
+            "customer_id": 6,
+            "from_node": "27446756",
+            "to_node": "258957360",
+            "road_tdsp_sec": 57.594,
+            "arrival_local": "2025-06-05 08:04:24.253760599",
+            "measured_edge_entries": 5,
+            "edge_traversals": 6
+          },
+          {
+            "customer_id": 14,
+            "from_node": "258957360",
+            "to_node": "619030981",
+            "road_tdsp_sec": 138.969,
+            "arrival_local": "2025-06-05 08:08:43.222316377",
+            "measured_edge_entries": 6,
+            "edge_traversals": 14
+          },
+          {
+            "customer_id": 26,
+            "from_node": "619030981",
+            "to_node": "261151125",
+            "road_tdsp_sec": 59.189,
+            "arrival_local": "2025-06-05 08:11:42.411311792",
+            "measured_edge_entries": 1,
+            "edge_traversals": 5
+          },
+          {
+            "customer_id": 22,
+            "from_node": "261151125",
+            "to_node": "261246186",
+            "road_tdsp_sec": 267.121,
+            "arrival_local": "2025-06-05 08:18:09.531895804",
+            "measured_edge_entries": 0,
+            "edge_traversals": 28
+          },
+          {
+            "customer_id": 19,
+            "from_node": "261246186",
+            "to_node": "9149827887",
+            "road_tdsp_sec": 30.841,
+            "arrival_local": "2025-06-05 08:20:40.372512566",
+            "measured_edge_entries": 0,
+            "edge_traversals": 5
+          },
+          {
+            "customer_id": 11,
+            "from_node": "9149827887",
+            "to_node": "727703783",
+            "road_tdsp_sec": 257.058,
+            "arrival_local": "2025-06-05 08:26:57.430540161",
+            "measured_edge_entries": 0,
+            "edge_traversals": 33
+          },
+          {
+            "customer_id": 18,
+            "from_node": "727703783",
+            "to_node": "261211963",
+            "road_tdsp_sec": 55.659,
+            "arrival_local": "2025-06-05 08:29:53.089371994",
+            "measured_edge_entries": 1,
+            "edge_traversals": 10
+          },
+          {
+            "customer_id": 25,
+            "from_node": "261211963",
+            "to_node": "2207262287",
+            "road_tdsp_sec": 132.57,
+            "arrival_local": "2025-06-05 08:34:05.658960970",
+            "measured_edge_entries": 2,
+            "edge_traversals": 13
+          },
+          {
+            "customer_id": 0,
+            "from_node": "2207262287",
+            "to_node": "261154311",
+            "road_tdsp_sec": 199.274,
+            "arrival_local": "2025-06-05 08:39:24.933235544",
+            "measured_edge_entries": 2,
+            "edge_traversals": 22
+          }
+        ]
+      },
+      {
+        "vehicle": 2,
+        "customer_ids": [
+          24,
+          8,
+          10,
+          20,
+          7,
+          3,
+          23
+        ],
+        "load": 38,
+        "elapsed_sec": 1878.724,
+        "legs": [
+          {
+            "customer_id": 24,
+            "from_node": "261154311",
+            "to_node": "345514164",
+            "road_tdsp_sec": 211.086,
+            "arrival_local": "2025-06-05 08:03:31.085698132",
+            "measured_edge_entries": 1,
+            "edge_traversals": 19
+          },
+          {
+            "customer_id": 8,
+            "from_node": "345514164",
+            "to_node": "1309446375",
+            "road_tdsp_sec": 80.612,
+            "arrival_local": "2025-06-05 08:06:51.698111981",
+            "measured_edge_entries": 5,
+            "edge_traversals": 11
+          },
+          {
+            "customer_id": 10,
+            "from_node": "1309446375",
+            "to_node": "9550357526",
+            "road_tdsp_sec": 92.973,
+            "arrival_local": "2025-06-05 08:10:24.670804432",
+            "measured_edge_entries": 1,
+            "edge_traversals": 11
+          },
+          {
+            "customer_id": 20,
+            "from_node": "9550357526",
+            "to_node": "428890369",
+            "road_tdsp_sec": 120.848,
+            "arrival_local": "2025-06-05 08:14:25.519284412",
+            "measured_edge_entries": 2,
+            "edge_traversals": 14
+          },
+          {
+            "customer_id": 7,
+            "from_node": "428890369",
+            "to_node": "27446489",
+            "road_tdsp_sec": 178.543,
+            "arrival_local": "2025-06-05 08:19:24.062470071",
+            "measured_edge_entries": 1,
+            "edge_traversals": 23
+          },
+          {
+            "customer_id": 3,
+            "from_node": "27446489",
+            "to_node": "1959945901",
+            "road_tdsp_sec": 178.401,
+            "arrival_local": "2025-06-05 08:24:22.463366382",
+            "measured_edge_entries": 0,
+            "edge_traversals": 19
+          },
+          {
+            "customer_id": 23,
+            "from_node": "1959945901",
+            "to_node": "11060789434",
+            "road_tdsp_sec": 123.242,
+            "arrival_local": "2025-06-05 08:28:25.705383777",
+            "measured_edge_entries": 0,
+            "edge_traversals": 15
+          },
+          {
+            "customer_id": 0,
+            "from_node": "11060789434",
+            "to_node": "261154311",
+            "road_tdsp_sec": 53.018,
+            "arrival_local": "2025-06-05 08:31:18.723759301",
+            "measured_edge_entries": 1,
+            "edge_traversals": 6
+          }
+        ]
+      },
+      {
+        "vehicle": 3,
+        "customer_ids": [
+          4,
+          30,
+          5,
+          12,
+          13,
+          1,
+          27,
+          21
+        ],
+        "load": 34,
+        "elapsed_sec": 2327.714,
+        "legs": [
+          {
+            "customer_id": 4,
+            "from_node": "261154311",
+            "to_node": "2231137214",
+            "road_tdsp_sec": 156.839,
+            "arrival_local": "2025-06-05 08:02:36.838590729",
+            "measured_edge_entries": 6,
+            "edge_traversals": 12
+          },
+          {
+            "customer_id": 30,
+            "from_node": "2231137214",
+            "to_node": "465863102",
+            "road_tdsp_sec": 134.631,
+            "arrival_local": "2025-06-05 08:06:51.469487668",
+            "measured_edge_entries": 0,
+            "edge_traversals": 10
+          },
+          {
+            "customer_id": 5,
+            "from_node": "465863102",
+            "to_node": "276588091",
+            "road_tdsp_sec": 256.896,
+            "arrival_local": "2025-06-05 08:13:08.365014154",
+            "measured_edge_entries": 3,
+            "edge_traversals": 25
+          },
+          {
+            "customer_id": 12,
+            "from_node": "276588091",
+            "to_node": "261148969",
+            "road_tdsp_sec": 45.517,
+            "arrival_local": "2025-06-05 08:15:53.882496912",
+            "measured_edge_entries": 0,
+            "edge_traversals": 4
+          },
+          {
+            "customer_id": 13,
+            "from_node": "261148969",
+            "to_node": "261151295",
+            "road_tdsp_sec": 63.243,
+            "arrival_local": "2025-06-05 08:18:57.125972647",
+            "measured_edge_entries": 0,
+            "edge_traversals": 8
+          },
+          {
+            "customer_id": 1,
+            "from_node": "261151295",
+            "to_node": "5893011178",
+            "road_tdsp_sec": 100.471,
+            "arrival_local": "2025-06-05 08:22:37.596869079",
+            "measured_edge_entries": 1,
+            "edge_traversals": 7
+          },
+          {
+            "customer_id": 27,
+            "from_node": "5893011178",
+            "to_node": "1308131714",
+            "road_tdsp_sec": 95.535,
+            "arrival_local": "2025-06-05 08:26:13.132187524",
+            "measured_edge_entries": 8,
+            "edge_traversals": 9
+          },
+          {
+            "customer_id": 21,
+            "from_node": "1308131714",
+            "to_node": "5970344126",
+            "road_tdsp_sec": 236.827,
+            "arrival_local": "2025-06-05 08:32:09.959499660",
+            "measured_edge_entries": 3,
+            "edge_traversals": 28
+          },
+          {
+            "customer_id": 0,
+            "from_node": "5970344126",
+            "to_node": "261154311",
+            "road_tdsp_sec": 277.755,
+            "arrival_local": "2025-06-05 08:38:47.714321002",
+            "measured_edge_entries": 14,
+            "edge_traversals": 34
+          }
+        ]
+      },
+      {
+        "vehicle": 4,
+        "customer_ids": [
+          16
+        ],
+        "load": 6,
+        "elapsed_sec": 258.023,
+        "legs": [
+          {
+            "customer_id": 16,
+            "from_node": "261154311",
+            "to_node": "28290277",
+            "road_tdsp_sec": 50.037,
+            "arrival_local": "2025-06-05 08:00:50.037188053",
+            "measured_edge_entries": 1,
+            "edge_traversals": 5
+          },
+          {
+            "customer_id": 0,
+            "from_node": "28290277",
+            "to_node": "261154311",
+            "road_tdsp_sec": 87.986,
+            "arrival_local": "2025-06-05 08:04:18.023469786",
+            "measured_edge_entries": 1,
+            "edge_traversals": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "planner": "oracle",
+    "routes": [
+      [
+        20,
+        10,
+        25,
+        27,
+        1,
+        8,
+        2
+      ],
+      [
+        16,
+        14,
+        26,
+        3
+      ],
+      [
+        21,
+        28,
+        22,
+        19,
+        15,
+        6,
+        9,
+        7
+      ],
+      [
+        17,
+        29,
+        23
+      ],
+      [
+        11,
+        5,
+        12,
+        13,
+        24,
+        18,
+        30,
+        4
+      ]
+    ],
+    "loads": [
+      37,
+      19,
+      30,
+      15,
+      41
+    ],
+    "iterations": 1500,
+    "search_seed": 42,
+    "od_step_minutes": 20.0,
+    "od_hours": 4.0,
+    "search_objective_travel_sec": 3999.5123586180853,
+    "search_wall_sec": 0.10494779981672764,
+    "search_history": [
+      {
+        "restart": 0,
+        "iteration": 250,
+        "best_travel_sec": 5447.185
+      },
+      {
+        "restart": 0,
+        "iteration": 500,
+        "best_travel_sec": 5210.377
+      },
+      {
+        "restart": 0,
+        "iteration": 750,
+        "best_travel_sec": 4436.325
+      },
+      {
+        "restart": 1,
+        "iteration": 250,
+        "best_travel_sec": 4436.325
+      },
+      {
+        "restart": 1,
+        "iteration": 500,
+        "best_travel_sec": 4288.396
+      },
+      {
+        "restart": 1,
+        "iteration": 750,
+        "best_travel_sec": 3999.512
+      }
+    ],
+    "cache_info": {
+      "hits": 10772,
+      "misses": 3768,
+      "maxsize": 150000,
+      "currsize": 3768
+    },
+    "road_exact_ex_post": {
+      "realized_travel_sec": 3986.4578122176463,
+      "realized_total_elapsed_vehicle_sec": 7586.458,
+      "observed_edge_entries": 62,
+      "edge_traversals": 454,
+      "observed_entry_share": 0.13656387665198239,
+      "evaluation_protocol": "Ex-post TDSP road-leg rerouting; fixed customer order/assignment, not fixed road path"
+    },
+    "route_details": [
+      {
+        "vehicle": 0,
+        "customer_ids": [
+          20,
+          10,
+          25,
+          27,
+          1,
+          8,
+          2
+        ],
+        "load": 37,
+        "elapsed_sec": 1761.315,
+        "legs": [
+          {
+            "customer_id": 20,
+            "from_node": "261154311",
+            "to_node": "428890369",
+            "road_tdsp_sec": 110.229,
+            "arrival_local": "2025-06-05 08:01:50.228938102",
+            "measured_edge_entries": 0,
+            "edge_traversals": 14
+          },
+          {
+            "customer_id": 10,
+            "from_node": "428890369",
+            "to_node": "9550357526",
+            "road_tdsp_sec": 115.225,
+            "arrival_local": "2025-06-05 08:05:45.454081416",
+            "measured_edge_entries": 0,
+            "edge_traversals": 11
+          },
+          {
+            "customer_id": 25,
+            "from_node": "9550357526",
+            "to_node": "2207262287",
+            "road_tdsp_sec": 31.719,
+            "arrival_local": "2025-06-05 08:08:17.173282980",
+            "measured_edge_entries": 0,
+            "edge_traversals": 4
+          },
+          {
+            "customer_id": 27,
+            "from_node": "2207262287",
+            "to_node": "1308131714",
+            "road_tdsp_sec": 104.301,
+            "arrival_local": "2025-06-05 08:12:01.474337810",
+            "measured_edge_entries": 1,
+            "edge_traversals": 10
+          },
+          {
+            "customer_id": 1,
+            "from_node": "1308131714",
+            "to_node": "5893011178",
+            "road_tdsp_sec": 81.444,
+            "arrival_local": "2025-06-05 08:15:22.918206621",
+            "measured_edge_entries": 10,
+            "edge_traversals": 11
+          },
+          {
+            "customer_id": 8,
+            "from_node": "5893011178",
+            "to_node": "1309446375",
+            "road_tdsp_sec": 232.651,
+            "arrival_local": "2025-06-05 08:21:15.568939931",
+            "measured_edge_entries": 10,
+            "edge_traversals": 30
+          },
+          {
+            "customer_id": 2,
+            "from_node": "1309446375",
+            "to_node": "3188221426",
+            "road_tdsp_sec": 166.958,
+            "arrival_local": "2025-06-05 08:26:02.526789810",
+            "measured_edge_entries": 5,
+            "edge_traversals": 14
+          },
+          {
+            "customer_id": 0,
+            "from_node": "3188221426",
+            "to_node": "261154311",
+            "road_tdsp_sec": 78.788,
+            "arrival_local": "2025-06-05 08:29:21.314666380",
+            "measured_edge_entries": 6,
+            "edge_traversals": 8
+          }
+        ]
+      },
+      {
+        "vehicle": 1,
+        "customer_ids": [
+          16,
+          14,
+          26,
+          3
+        ],
+        "load": 19,
+        "elapsed_sec": 1012.455,
+        "legs": [
+          {
+            "customer_id": 16,
+            "from_node": "261154311",
+            "to_node": "28290277",
+            "road_tdsp_sec": 50.037,
+            "arrival_local": "2025-06-05 08:00:50.037188053",
+            "measured_edge_entries": 1,
+            "edge_traversals": 5
+          },
+          {
+            "customer_id": 14,
+            "from_node": "28290277",
+            "to_node": "619030981",
+            "road_tdsp_sec": 172.519,
+            "arrival_local": "2025-06-05 08:05:42.555943025",
+            "measured_edge_entries": 5,
+            "edge_traversals": 17
+          },
+          {
+            "customer_id": 26,
+            "from_node": "619030981",
+            "to_node": "261151125",
+            "road_tdsp_sec": 58.776,
+            "arrival_local": "2025-06-05 08:08:41.331880479",
+            "measured_edge_entries": 1,
+            "edge_traversals": 5
+          },
+          {
+            "customer_id": 3,
+            "from_node": "261151125",
+            "to_node": "1959945901",
+            "road_tdsp_sec": 72.284,
+            "arrival_local": "2025-06-05 08:11:53.616009499",
+            "measured_edge_entries": 1,
+            "edge_traversals": 6
+          },
+          {
+            "customer_id": 0,
+            "from_node": "1959945901",
+            "to_node": "261154311",
+            "road_tdsp_sec": 178.839,
+            "arrival_local": "2025-06-05 08:16:52.455395594",
+            "measured_edge_entries": 2,
+            "edge_traversals": 21
+          }
+        ]
+      },
+      {
+        "vehicle": 2,
+        "customer_ids": [
+          21,
+          28,
+          22,
+          19,
+          15,
+          6,
+          9,
+          7
+        ],
+        "load": 30,
+        "elapsed_sec": 1866.073,
+        "legs": [
+          {
+            "customer_id": 21,
+            "from_node": "261154311",
+            "to_node": "5970344126",
+            "road_tdsp_sec": 266.035,
+            "arrival_local": "2025-06-05 08:04:26.035187304",
+            "measured_edge_entries": 4,
+            "edge_traversals": 27
+          },
+          {
+            "customer_id": 28,
+            "from_node": "5970344126",
+            "to_node": "10556426050",
+            "road_tdsp_sec": 178.76,
+            "arrival_local": "2025-06-05 08:09:24.795002281",
+            "measured_edge_entries": 0,
+            "edge_traversals": 22
+          },
+          {
+            "customer_id": 22,
+            "from_node": "10556426050",
+            "to_node": "261246186",
+            "road_tdsp_sec": 75.423,
+            "arrival_local": "2025-06-05 08:12:40.218374073",
+            "measured_edge_entries": 0,
+            "edge_traversals": 12
+          },
+          {
+            "customer_id": 19,
+            "from_node": "261246186",
+            "to_node": "9149827887",
+            "road_tdsp_sec": 30.841,
+            "arrival_local": "2025-06-05 08:15:11.058990836",
+            "measured_edge_entries": 0,
+            "edge_traversals": 5
+          },
+          {
+            "customer_id": 15,
+            "from_node": "9149827887",
+            "to_node": "258022686",
+            "road_tdsp_sec": 94.438,
+            "arrival_local": "2025-06-05 08:18:45.496597766",
+            "measured_edge_entries": 0,
+            "edge_traversals": 21
+          },
+          {
+            "customer_id": 6,
+            "from_node": "258022686",
+            "to_node": "258957360",
+            "road_tdsp_sec": 120.631,
+            "arrival_local": "2025-06-05 08:22:46.127515196",
+            "measured_edge_entries": 0,
+            "edge_traversals": 18
+          },
+          {
+            "customer_id": 9,
+            "from_node": "258957360",
+            "to_node": "27446756",
+            "road_tdsp_sec": 34.597,
+            "arrival_local": "2025-06-05 08:25:20.724271893",
+            "measured_edge_entries": 0,
+            "edge_traversals": 6
+          },
+          {
+            "customer_id": 7,
+            "from_node": "27446756",
+            "to_node": "27446489",
+            "road_tdsp_sec": 43.615,
+            "arrival_local": "2025-06-05 08:28:04.339545369",
+            "measured_edge_entries": 0,
+            "edge_traversals": 4
+          },
+          {
+            "customer_id": 0,
+            "from_node": "27446489",
+            "to_node": "261154311",
+            "road_tdsp_sec": 61.733,
+            "arrival_local": "2025-06-05 08:31:06.072595382",
+            "measured_edge_entries": 1,
+            "edge_traversals": 7
+          }
+        ]
+      },
+      {
+        "vehicle": 3,
+        "customer_ids": [
+          17,
+          29,
+          23
+        ],
+        "load": 15,
+        "elapsed_sec": 941.362,
+        "legs": [
+          {
+            "customer_id": 17,
+            "from_node": "261154311",
+            "to_node": "261184867",
+            "road_tdsp_sec": 290.113,
+            "arrival_local": "2025-06-05 08:04:50.113064646",
+            "measured_edge_entries": 1,
+            "edge_traversals": 30
+          },
+          {
+            "customer_id": 29,
+            "from_node": "261184867",
+            "to_node": "261199561",
+            "road_tdsp_sec": 69.079,
+            "arrival_local": "2025-06-05 08:07:59.191984057",
+            "measured_edge_entries": 0,
+            "edge_traversals": 5
+          },
+          {
+            "customer_id": 23,
+            "from_node": "261199561",
+            "to_node": "11060789434",
+            "road_tdsp_sec": 166.931,
+            "arrival_local": "2025-06-05 08:12:46.122684776",
+            "measured_edge_entries": 0,
+            "edge_traversals": 21
+          },
+          {
+            "customer_id": 0,
+            "from_node": "11060789434",
+            "to_node": "261154311",
+            "road_tdsp_sec": 55.239,
+            "arrival_local": "2025-06-05 08:15:41.362081967",
+            "measured_edge_entries": 1,
+            "edge_traversals": 6
+          }
+        ]
+      },
+      {
+        "vehicle": 4,
+        "customer_ids": [
+          11,
+          5,
+          12,
+          13,
+          24,
+          18,
+          30,
+          4
+        ],
+        "load": 41,
+        "elapsed_sec": 2005.253,
+        "legs": [
+          {
+            "customer_id": 11,
+            "from_node": "261154311",
+            "to_node": "727703783",
+            "road_tdsp_sec": 217.576,
+            "arrival_local": "2025-06-05 08:03:37.576066374",
+            "measured_edge_entries": 0,
+            "edge_traversals": 22
+          },
+          {
+            "customer_id": 5,
+            "from_node": "727703783",
+            "to_node": "276588091",
+            "road_tdsp_sec": 132.284,
+            "arrival_local": "2025-06-05 08:07:49.860395758",
+            "measured_edge_entries": 4,
+            "edge_traversals": 12
+          },
+          {
+            "customer_id": 12,
+            "from_node": "276588091",
+            "to_node": "261148969",
+            "road_tdsp_sec": 45.517,
+            "arrival_local": "2025-06-05 08:10:35.377878516",
+            "measured_edge_entries": 0,
+            "edge_traversals": 4
+          },
+          {
+            "customer_id": 13,
+            "from_node": "261148969",
+            "to_node": "261151295",
+            "road_tdsp_sec": 63.243,
+            "arrival_local": "2025-06-05 08:13:38.621354251",
+            "measured_edge_entries": 0,
+            "edge_traversals": 8
+          },
+          {
+            "customer_id": 24,
+            "from_node": "261151295",
+            "to_node": "345514164",
+            "road_tdsp_sec": 146.579,
+            "arrival_local": "2025-06-05 08:18:05.200368011",
+            "measured_edge_entries": 2,
+            "edge_traversals": 19
+          },
+          {
+            "customer_id": 18,
+            "from_node": "345514164",
+            "to_node": "261211963",
+            "road_tdsp_sec": 49.191,
+            "arrival_local": "2025-06-05 08:20:54.391656677",
+            "measured_edge_entries": 3,
+            "edge_traversals": 10
+          },
+          {
+            "customer_id": 30,
+            "from_node": "261211963",
+            "to_node": "465863102",
+            "road_tdsp_sec": 120.441,
+            "arrival_local": "2025-06-05 08:24:54.832356255",
+            "measured_edge_entries": 0,
+            "edge_traversals": 12
+          },
+          {
+            "customer_id": 4,
+            "from_node": "465863102",
+            "to_node": "2231137214",
+            "road_tdsp_sec": 141.195,
+            "arrival_local": "2025-06-05 08:29:16.027307425",
+            "measured_edge_entries": 2,
+            "edge_traversals": 12
+          },
+          {
+            "customer_id": 0,
+            "from_node": "2231137214",
+            "to_node": "261154311",
+            "road_tdsp_sec": 129.226,
+            "arrival_local": "2025-06-05 08:33:25.253072892",
+            "measured_edge_entries": 2,
+            "edge_traversals": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "planner": "static",
+    "routes": [
+      [
+        15,
+        29,
+        17,
+        28,
+        2
+      ],
+      [
+        9,
+        6,
+        14,
+        26,
+        22,
+        19,
+        11,
+        18,
+        25
+      ],
+      [
+        24,
+        8,
+        10,
+        20,
+        7,
+        3,
+        23
+      ],
+      [
+        4,
+        30,
+        5,
+        12,
+        13,
+        1,
+        27,
+        21
+      ],
+      [
+        16
+      ]
+    ],
+    "loads": [
+      28,
+      36,
+      38,
+      34,
+      6
+    ],
+    "iterations": 1500,
+    "search_seed": 42,
+    "od_step_minutes": 20.0,
+    "od_hours": 4.0,
+    "search_objective_travel_sec": 4318.573632050428,
+    "search_wall_sec": 0.06604969035834074,
+    "search_history": [
+      {
+        "restart": 0,
+        "iteration": 250,
+        "best_travel_sec": 5554.242
+      },
+      {
+        "restart": 0,
+        "iteration": 750,
+        "best_travel_sec": 4492.412
+      },
+      {
+        "restart": 1,
+        "iteration": 500,
+        "best_travel_sec": 4492.412
+      },
+      {
+        "restart": 1,
+        "iteration": 750,
+        "best_travel_sec": 4318.574
+      }
+    ],
+    "cache_info": {
+      "hits": 16062,
+      "misses": 5583,
+      "maxsize": 150000,
+      "currsize": 5583
+    },
+    "road_exact_ex_post": {
+      "realized_travel_sec": 4700.0098640260985,
+      "realized_total_elapsed_vehicle_sec": 8300.008999999998,
+      "observed_edge_entries": 87,
+      "edge_traversals": 515,
+      "observed_entry_share": 0.16893203883495145,
+      "evaluation_protocol": "Ex-post TDSP road-leg rerouting; fixed customer order/assignment, not fixed road path"
+    },
+    "route_details": [
+      {
+        "vehicle": 0,
+        "customer_ids": [
+          15,
+          29,
+          17,
+          28,
+          2
+        ],
+        "load": 28,
+        "elapsed_sec": 1515.698,
+        "legs": [
+          {
+            "customer_id": 15,
+            "from_node": "261154311",
+            "to_node": "258022686",
+            "road_tdsp_sec": 160.048,
+            "arrival_local": "2025-06-06 08:02:40.048465728",
+            "measured_edge_entries": 1,
+            "edge_traversals": 17
+          },
+          {
+            "customer_id": 29,
+            "from_node": "258022686",
+            "to_node": "261199561",
+            "road_tdsp_sec": 88.336,
+            "arrival_local": "2025-06-06 08:06:08.384690165",
+            "measured_edge_entries": 0,
+            "edge_traversals": 11
+          },
+          {
+            "customer_id": 17,
+            "from_node": "261199561",
+            "to_node": "261184867",
+            "road_tdsp_sec": 69.079,
+            "arrival_local": "2025-06-06 08:09:17.463609576",
+            "measured_edge_entries": 0,
+            "edge_traversals": 5
+          },
+          {
+            "customer_id": 28,
+            "from_node": "261184867",
+            "to_node": "10556426050",
+            "road_tdsp_sec": 215.508,
+            "arrival_local": "2025-06-06 08:14:52.971822522",
+            "measured_edge_entries": 2,
+            "edge_traversals": 25
+          },
+          {
+            "customer_id": 2,
+            "from_node": "10556426050",
+            "to_node": "3188221426",
+            "road_tdsp_sec": 298.776,
+            "arrival_local": "2025-06-06 08:21:51.747811220",
+            "measured_edge_entries": 0,
+            "edge_traversals": 39
+          },
+          {
+            "customer_id": 0,
+            "from_node": "3188221426",
+            "to_node": "261154311",
+            "road_tdsp_sec": 83.95,
+            "arrival_local": "2025-06-06 08:25:15.697891182",
+            "measured_edge_entries": 6,
+            "edge_traversals": 8
+          }
+        ]
+      },
+      {
+        "vehicle": 1,
+        "customer_ids": [
+          9,
+          6,
+          14,
+          26,
+          22,
+          19,
+          11,
+          18,
+          25
+        ],
+        "load": 36,
+        "elapsed_sec": 2354.592,
+        "legs": [
+          {
+            "customer_id": 9,
+            "from_node": "261154311",
+            "to_node": "27446756",
+            "road_tdsp_sec": 78.151,
+            "arrival_local": "2025-06-06 08:01:18.151437891",
+            "measured_edge_entries": 6,
+            "edge_traversals": 9
+          },
+          {
+            "customer_id": 6,
+            "from_node": "27446756",
+            "to_node": "258957360",
+            "road_tdsp_sec": 54.832,
+            "arrival_local": "2025-06-06 08:04:12.983378732",
+            "measured_edge_entries": 5,
+            "edge_traversals": 6
+          },
+          {
+            "customer_id": 14,
+            "from_node": "258957360",
+            "to_node": "619030981",
+            "road_tdsp_sec": 139.834,
+            "arrival_local": "2025-06-06 08:08:32.817604214",
+            "measured_edge_entries": 2,
+            "edge_traversals": 21
+          },
+          {
+            "customer_id": 26,
+            "from_node": "619030981",
+            "to_node": "261151125",
+            "road_tdsp_sec": 57.22,
+            "arrival_local": "2025-06-06 08:11:30.038010746",
+            "measured_edge_entries": 1,
+            "edge_traversals": 5
+          },
+          {
+            "customer_id": 22,
+            "from_node": "261151125",
+            "to_node": "261246186",
+            "road_tdsp_sec": 267.121,
+            "arrival_local": "2025-06-06 08:17:57.158594757",
+            "measured_edge_entries": 0,
+            "edge_traversals": 28
+          },
+          {
+            "customer_id": 19,
+            "from_node": "261246186",
+            "to_node": "9149827887",
+            "road_tdsp_sec": 30.841,
+            "arrival_local": "2025-06-06 08:20:27.999211520",
+            "measured_edge_entries": 0,
+            "edge_traversals": 5
+          },
+          {
+            "customer_id": 11,
+            "from_node": "9149827887",
+            "to_node": "727703783",
+            "road_tdsp_sec": 257.058,
+            "arrival_local": "2025-06-06 08:26:45.057239115",
+            "measured_edge_entries": 0,
+            "edge_traversals": 33
+          },
+          {
+            "customer_id": 18,
+            "from_node": "727703783",
+            "to_node": "261211963",
+            "road_tdsp_sec": 56.619,
+            "arrival_local": "2025-06-06 08:29:41.676357723",
+            "measured_edge_entries": 1,
+            "edge_traversals": 10
+          },
+          {
+            "customer_id": 25,
+            "from_node": "261211963",
+            "to_node": "2207262287",
+            "road_tdsp_sec": 126.69,
+            "arrival_local": "2025-06-06 08:33:48.366620137",
+            "measured_edge_entries": 0,
+            "edge_traversals": 13
+          },
+          {
+            "customer_id": 0,
+            "from_node": "2207262287",
+            "to_node": "261154311",
+            "road_tdsp_sec": 206.226,
+            "arrival_local": "2025-06-06 08:39:14.592194410",
+            "measured_edge_entries": 0,
+            "edge_traversals": 22
+          }
+        ]
+      },
+      {
+        "vehicle": 2,
+        "customer_ids": [
+          24,
+          8,
+          10,
+          20,
+          7,
+          3,
+          23
+        ],
+        "load": 38,
+        "elapsed_sec": 1901.677,
+        "legs": [
+          {
+            "customer_id": 24,
+            "from_node": "261154311",
+            "to_node": "345514164",
+            "road_tdsp_sec": 211.779,
+            "arrival_local": "2025-06-06 08:03:31.778725975",
+            "measured_edge_entries": 0,
+            "edge_traversals": 19
+          },
+          {
+            "customer_id": 8,
+            "from_node": "345514164",
+            "to_node": "1309446375",
+            "road_tdsp_sec": 94.533,
+            "arrival_local": "2025-06-06 08:07:06.311797760",
+            "measured_edge_entries": 11,
+            "edge_traversals": 11
+          },
+          {
+            "customer_id": 10,
+            "from_node": "1309446375",
+            "to_node": "9550357526",
+            "road_tdsp_sec": 96.764,
+            "arrival_local": "2025-06-06 08:10:43.075650466",
+            "measured_edge_entries": 4,
+            "edge_traversals": 11
+          },
+          {
+            "customer_id": 20,
+            "from_node": "9550357526",
+            "to_node": "428890369",
+            "road_tdsp_sec": 123.051,
+            "arrival_local": "2025-06-06 08:14:46.126988626",
+            "measured_edge_entries": 2,
+            "edge_traversals": 14
+          },
+          {
+            "customer_id": 7,
+            "from_node": "428890369",
+            "to_node": "27446489",
+            "road_tdsp_sec": 180.586,
+            "arrival_local": "2025-06-06 08:19:46.712931045",
+            "measured_edge_entries": 1,
+            "edge_traversals": 23
+          },
+          {
+            "customer_id": 3,
+            "from_node": "27446489",
+            "to_node": "1959945901",
+            "road_tdsp_sec": 178.322,
+            "arrival_local": "2025-06-06 08:24:45.034552834",
+            "measured_edge_entries": 2,
+            "edge_traversals": 21
+          },
+          {
+            "customer_id": 23,
+            "from_node": "1959945901",
+            "to_node": "11060789434",
+            "road_tdsp_sec": 123.493,
+            "arrival_local": "2025-06-06 08:28:48.528004061",
+            "measured_edge_entries": 0,
+            "edge_traversals": 15
+          },
+          {
+            "customer_id": 0,
+            "from_node": "11060789434",
+            "to_node": "261154311",
+            "road_tdsp_sec": 53.149,
+            "arrival_local": "2025-06-06 08:31:41.676934200",
+            "measured_edge_entries": 1,
+            "edge_traversals": 6
+          }
+        ]
+      },
+      {
+        "vehicle": 3,
+        "customer_ids": [
+          4,
+          30,
+          5,
+          12,
+          13,
+          1,
+          27,
+          21
+        ],
+        "load": 34,
+        "elapsed_sec": 2270.019,
+        "legs": [
+          {
+            "customer_id": 4,
+            "from_node": "261154311",
+            "to_node": "2231137214",
+            "road_tdsp_sec": 133.172,
+            "arrival_local": "2025-06-06 08:02:13.172344151",
+            "measured_edge_entries": 6,
+            "edge_traversals": 12
+          },
+          {
+            "customer_id": 30,
+            "from_node": "2231137214",
+            "to_node": "465863102",
+            "road_tdsp_sec": 136.024,
+            "arrival_local": "2025-06-06 08:06:29.196224650",
+            "measured_edge_entries": 1,
+            "edge_traversals": 10
+          },
+          {
+            "customer_id": 5,
+            "from_node": "465863102",
+            "to_node": "276588091",
+            "road_tdsp_sec": 280.933,
+            "arrival_local": "2025-06-06 08:13:10.128807948",
+            "measured_edge_entries": 3,
+            "edge_traversals": 25
+          },
+          {
+            "customer_id": 12,
+            "from_node": "276588091",
+            "to_node": "261148969",
+            "road_tdsp_sec": 45.517,
+            "arrival_local": "2025-06-06 08:15:55.646290706",
+            "measured_edge_entries": 0,
+            "edge_traversals": 4
+          },
+          {
+            "customer_id": 13,
+            "from_node": "261148969",
+            "to_node": "261151295",
+            "road_tdsp_sec": 63.243,
+            "arrival_local": "2025-06-06 08:18:58.889766441",
+            "measured_edge_entries": 0,
+            "edge_traversals": 8
+          },
+          {
+            "customer_id": 1,
+            "from_node": "261151295",
+            "to_node": "5893011178",
+            "road_tdsp_sec": 98.937,
+            "arrival_local": "2025-06-06 08:22:37.826706437",
+            "measured_edge_entries": 1,
+            "edge_traversals": 10
+          },
+          {
+            "customer_id": 27,
+            "from_node": "5893011178",
+            "to_node": "1308131714",
+            "road_tdsp_sec": 67.467,
+            "arrival_local": "2025-06-06 08:25:45.293227043",
+            "measured_edge_entries": 8,
+            "edge_traversals": 9
+          },
+          {
+            "customer_id": 21,
+            "from_node": "1308131714",
+            "to_node": "5970344126",
+            "road_tdsp_sec": 205.317,
+            "arrival_local": "2025-06-06 08:31:10.610465670",
+            "measured_edge_entries": 17,
+            "edge_traversals": 18
+          },
+          {
+            "customer_id": 0,
+            "from_node": "5970344126",
+            "to_node": "261154311",
+            "road_tdsp_sec": 279.409,
+            "arrival_local": "2025-06-06 08:37:50.019374446",
+            "measured_edge_entries": 4,
+            "edge_traversals": 27
+          }
+        ]
+      },
+      {
+        "vehicle": 4,
+        "customer_ids": [
+          16
+        ],
+        "load": 6,
+        "elapsed_sec": 258.023,
+        "legs": [
+          {
+            "customer_id": 16,
+            "from_node": "261154311",
+            "to_node": "28290277",
+            "road_tdsp_sec": 50.037,
+            "arrival_local": "2025-06-06 08:00:50.037188053",
+            "measured_edge_entries": 1,
+            "edge_traversals": 5
+          },
+          {
+            "customer_id": 0,
+            "from_node": "28290277",
+            "to_node": "261154311",
+            "road_tdsp_sec": 87.986,
+            "arrival_local": "2025-06-06 08:04:18.023469786",
+            "measured_edge_entries": 1,
+            "edge_traversals": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "planner": "oracle",
+    "routes": [
+      [
+        3,
+        26,
+        14
+      ],
+      [
+        16,
+        19,
+        21,
+        13,
+        27,
+        8,
+        30
+      ],
+      [
+        24,
+        1,
+        12,
+        5,
+        11,
+        18
+      ],
+      [
+        10,
+        25,
+        4,
+        7,
+        23
+      ],
+      [
+        6,
+        9,
+        15,
+        17,
+        29,
+        28,
+        22,
+        2,
+        20
+      ]
+    ],
+    "loads": [
+      13,
+      26,
+      36,
+      25,
+      42
+    ],
+    "iterations": 1500,
+    "search_seed": 42,
+    "od_step_minutes": 20.0,
+    "od_hours": 4.0,
+    "search_objective_travel_sec": 4720.5569839610835,
+    "search_wall_sec": 0.09740838687866926,
+    "search_history": [
+      {
+        "restart": 0,
+        "iteration": 250,
+        "best_travel_sec": 5752.767
+      },
+      {
+        "restart": 0,
+        "iteration": 500,
+        "best_travel_sec": 4965.013
+      },
+      {
+        "restart": 0,
+        "iteration": 750,
+        "best_travel_sec": 4720.557
+      },
+      {
+        "restart": 1,
+        "iteration": 500,
+        "best_travel_sec": 4720.557
+      },
+      {
+        "restart": 1,
+        "iteration": 750,
+        "best_travel_sec": 4720.557
+      }
+    ],
+    "cache_info": {
+      "hits": 21450,
+      "misses": 7340,
+      "maxsize": 150000,
+      "currsize": 7340
+    },
+    "road_exact_ex_post": {
+      "realized_travel_sec": 4746.893557726755,
+      "realized_total_elapsed_vehicle_sec": 8346.894,
+      "observed_edge_entries": 42,
+      "edge_traversals": 507,
+      "observed_entry_share": 0.08284023668639054,
+      "evaluation_protocol": "Ex-post TDSP road-leg rerouting; fixed customer order/assignment, not fixed road path"
+    },
+    "route_details": [
+      {
+        "vehicle": 0,
+        "customer_ids": [
+          3,
+          26,
+          14
+        ],
+        "load": 13,
+        "elapsed_sec": 889.487,
+        "legs": [
+          {
+            "customer_id": 3,
+            "from_node": "261154311",
+            "to_node": "1959945901",
+            "road_tdsp_sec": 162.345,
+            "arrival_local": "2025-06-06 08:02:42.345087766",
+            "measured_edge_entries": 1,
+            "edge_traversals": 18
+          },
+          {
+            "customer_id": 26,
+            "from_node": "1959945901",
+            "to_node": "261151125",
+            "road_tdsp_sec": 88.04,
+            "arrival_local": "2025-06-06 08:06:10.384612818",
+            "measured_edge_entries": 2,
+            "edge_traversals": 10
+          },
+          {
+            "customer_id": 14,
+            "from_node": "261151125",
+            "to_node": "619030981",
+            "road_tdsp_sec": 54.552,
+            "arrival_local": "2025-06-06 08:09:04.936192586",
+            "measured_edge_entries": 1,
+            "edge_traversals": 5
+          },
+          {
+            "customer_id": 0,
+            "from_node": "619030981",
+            "to_node": "261154311",
+            "road_tdsp_sec": 224.551,
+            "arrival_local": "2025-06-06 08:14:49.486708224",
+            "measured_edge_entries": 1,
+            "edge_traversals": 20
+          }
+        ]
+      },
+      {
+        "vehicle": 1,
+        "customer_ids": [
+          16,
+          19,
+          21,
+          13,
+          27,
+          8,
+          30
+        ],
+        "load": 26,
+        "elapsed_sec": 2253.196,
+        "legs": [
+          {
+            "customer_id": 16,
+            "from_node": "261154311",
+            "to_node": "28290277",
+            "road_tdsp_sec": 50.037,
+            "arrival_local": "2025-06-06 08:00:50.037188053",
+            "measured_edge_entries": 1,
+            "edge_traversals": 5
+          },
+          {
+            "customer_id": 19,
+            "from_node": "28290277",
+            "to_node": "9149827887",
+            "road_tdsp_sec": 195.848,
+            "arrival_local": "2025-06-06 08:06:05.885493934",
+            "measured_edge_entries": 0,
+            "edge_traversals": 23
+          },
+          {
+            "customer_id": 21,
+            "from_node": "9149827887",
+            "to_node": "5970344126",
+            "road_tdsp_sec": 206.426,
+            "arrival_local": "2025-06-06 08:11:32.311380411",
+            "measured_edge_entries": 0,
+            "edge_traversals": 28
+          },
+          {
+            "customer_id": 13,
+            "from_node": "5970344126",
+            "to_node": "261151295",
+            "road_tdsp_sec": 251.792,
+            "arrival_local": "2025-06-06 08:17:44.103458456",
+            "measured_edge_entries": 3,
+            "edge_traversals": 28
+          },
+          {
+            "customer_id": 27,
+            "from_node": "261151295",
+            "to_node": "1308131714",
+            "road_tdsp_sec": 113.435,
+            "arrival_local": "2025-06-06 08:21:37.538896888",
+            "measured_edge_entries": 1,
+            "edge_traversals": 12
+          },
+          {
+            "customer_id": 8,
+            "from_node": "1308131714",
+            "to_node": "1309446375",
+            "road_tdsp_sec": 154.826,
+            "arrival_local": "2025-06-06 08:26:12.364481776",
+            "measured_edge_entries": 0,
+            "edge_traversals": 11
+          },
+          {
+            "customer_id": 30,
+            "from_node": "1309446375",
+            "to_node": "465863102",
+            "road_tdsp_sec": 209.766,
+            "arrival_local": "2025-06-06 08:31:42.130388830",
+            "measured_edge_entries": 4,
+            "edge_traversals": 25
+          },
+          {
+            "customer_id": 0,
+            "from_node": "465863102",
+            "to_node": "261154311",
+            "road_tdsp_sec": 231.066,
+            "arrival_local": "2025-06-06 08:37:33.196207259",
+            "measured_edge_entries": 0,
+            "edge_traversals": 21
+          }
+        ]
+      },
+      {
+        "vehicle": 2,
+        "customer_ids": [
+          24,
+          1,
+          12,
+          5,
+          11,
+          18
+        ],
+        "load": 36,
+        "elapsed_sec": 1593.043,
+        "legs": [
+          {
+            "customer_id": 24,
+            "from_node": "261154311",
+            "to_node": "345514164",
+            "road_tdsp_sec": 211.779,
+            "arrival_local": "2025-06-06 08:03:31.778725975",
+            "measured_edge_entries": 0,
+            "edge_traversals": 19
+          },
+          {
+            "customer_id": 1,
+            "from_node": "345514164",
+            "to_node": "5893011178",
+            "road_tdsp_sec": 172.81,
+            "arrival_local": "2025-06-06 08:08:24.588452225",
+            "measured_edge_entries": 3,
+            "edge_traversals": 23
+          },
+          {
+            "customer_id": 12,
+            "from_node": "5893011178",
+            "to_node": "261148969",
+            "road_tdsp_sec": 54.038,
+            "arrival_local": "2025-06-06 08:11:18.626485986",
+            "measured_edge_entries": 1,
+            "edge_traversals": 7
+          },
+          {
+            "customer_id": 5,
+            "from_node": "261148969",
+            "to_node": "276588091",
+            "road_tdsp_sec": 45.517,
+            "arrival_local": "2025-06-06 08:14:04.143968743",
+            "measured_edge_entries": 0,
+            "edge_traversals": 4
+          },
+          {
+            "customer_id": 11,
+            "from_node": "276588091",
+            "to_node": "727703783",
+            "road_tdsp_sec": 116.69,
+            "arrival_local": "2025-06-06 08:18:00.833797231",
+            "measured_edge_entries": 3,
+            "edge_traversals": 11
+          },
+          {
+            "customer_id": 18,
+            "from_node": "727703783",
+            "to_node": "261211963",
+            "road_tdsp_sec": 55.337,
+            "arrival_local": "2025-06-06 08:20:56.170918299",
+            "measured_edge_entries": 1,
+            "edge_traversals": 10
+          },
+          {
+            "customer_id": 0,
+            "from_node": "261211963",
+            "to_node": "261154311",
+            "road_tdsp_sec": 216.872,
+            "arrival_local": "2025-06-06 08:26:33.042980863",
+            "measured_edge_entries": 0,
+            "edge_traversals": 21
+          }
+        ]
+      },
+      {
+        "vehicle": 3,
+        "customer_ids": [
+          10,
+          25,
+          4,
+          7,
+          23
+        ],
+        "load": 25,
+        "elapsed_sec": 1304.915,
+        "legs": [
+          {
+            "customer_id": 10,
+            "from_node": "261154311",
+            "to_node": "9550357526",
+            "road_tdsp_sec": 170.514,
+            "arrival_local": "2025-06-06 08:02:50.514446258",
+            "measured_edge_entries": 0,
+            "edge_traversals": 17
+          },
+          {
+            "customer_id": 25,
+            "from_node": "9550357526",
+            "to_node": "2207262287",
+            "road_tdsp_sec": 31.719,
+            "arrival_local": "2025-06-06 08:05:22.233647823",
+            "measured_edge_entries": 0,
+            "edge_traversals": 4
+          },
+          {
+            "customer_id": 4,
+            "from_node": "2207262287",
+            "to_node": "2231137214",
+            "road_tdsp_sec": 160.017,
+            "arrival_local": "2025-06-06 08:10:02.251072993",
+            "measured_edge_entries": 7,
+            "edge_traversals": 10
+          },
+          {
+            "customer_id": 7,
+            "from_node": "2231137214",
+            "to_node": "27446489",
+            "road_tdsp_sec": 189.731,
+            "arrival_local": "2025-06-06 08:15:11.981667571",
+            "measured_edge_entries": 2,
+            "edge_traversals": 20
+          },
+          {
+            "customer_id": 23,
+            "from_node": "27446489",
+            "to_node": "11060789434",
+            "road_tdsp_sec": 98.541,
+            "arrival_local": "2025-06-06 08:18:50.522294038",
+            "measured_edge_entries": 0,
+            "edge_traversals": 10
+          },
+          {
+            "customer_id": 0,
+            "from_node": "11060789434",
+            "to_node": "261154311",
+            "road_tdsp_sec": 54.392,
+            "arrival_local": "2025-06-06 08:21:44.914754428",
+            "measured_edge_entries": 1,
+            "edge_traversals": 6
+          }
+        ]
+      },
+      {
+        "vehicle": 4,
+        "customer_ids": [
+          6,
+          9,
+          15,
+          17,
+          29,
+          28,
+          22,
+          2,
+          20
+        ],
+        "load": 42,
+        "elapsed_sec": 2306.253,
+        "legs": [
+          {
+            "customer_id": 6,
+            "from_node": "261154311",
+            "to_node": "258957360",
+            "road_tdsp_sec": 106.028,
+            "arrival_local": "2025-06-06 08:01:46.028023481",
+            "measured_edge_entries": 1,
+            "edge_traversals": 12
+          },
+          {
+            "customer_id": 9,
+            "from_node": "258957360",
+            "to_node": "27446756",
+            "road_tdsp_sec": 34.597,
+            "arrival_local": "2025-06-06 08:04:20.624780178",
+            "measured_edge_entries": 0,
+            "edge_traversals": 6
+          },
+          {
+            "customer_id": 15,
+            "from_node": "27446756",
+            "to_node": "258022686",
+            "road_tdsp_sec": 152.831,
+            "arrival_local": "2025-06-06 08:08:53.455417156",
+            "measured_edge_entries": 0,
+            "edge_traversals": 17
+          },
+          {
+            "customer_id": 17,
+            "from_node": "258022686",
+            "to_node": "261184867",
+            "road_tdsp_sec": 157.415,
+            "arrival_local": "2025-06-06 08:13:30.870561003",
+            "measured_edge_entries": 0,
+            "edge_traversals": 16
+          },
+          {
+            "customer_id": 29,
+            "from_node": "261184867",
+            "to_node": "261199561",
+            "road_tdsp_sec": 69.079,
+            "arrival_local": "2025-06-06 08:16:39.949480414",
+            "measured_edge_entries": 0,
+            "edge_traversals": 5
+          },
+          {
+            "customer_id": 28,
+            "from_node": "261199561",
+            "to_node": "10556426050",
+            "road_tdsp_sec": 179.93,
+            "arrival_local": "2025-06-06 08:21:39.879855990",
+            "measured_edge_entries": 0,
+            "edge_traversals": 21
+          },
+          {
+            "customer_id": 22,
+            "from_node": "10556426050",
+            "to_node": "261246186",
+            "road_tdsp_sec": 75.423,
+            "arrival_local": "2025-06-06 08:24:55.303227782",
+            "measured_edge_entries": 0,
+            "edge_traversals": 12
+          },
+          {
+            "customer_id": 2,
+            "from_node": "261246186",
+            "to_node": "3188221426",
+            "road_tdsp_sec": 244.412,
+            "arrival_local": "2025-06-06 08:30:59.715643882",
+            "measured_edge_entries": 0,
+            "edge_traversals": 29
+          },
+          {
+            "customer_id": 20,
+            "from_node": "3188221426",
+            "to_node": "428890369",
+            "road_tdsp_sec": 61.668,
+            "arrival_local": "2025-06-06 08:34:01.383909225",
+            "measured_edge_entries": 0,
+            "edge_traversals": 7
+          },
+          {
+            "customer_id": 0,
+            "from_node": "428890369",
+            "to_node": "261154311",
+            "road_tdsp_sec": 144.869,
+            "arrival_local": "2025-06-06 08:38:26.252906950",
+            "measured_edge_entries": 9,
+            "edge_traversals": 14
+          }
+        ]
+      }
+    ]
+  }
+]

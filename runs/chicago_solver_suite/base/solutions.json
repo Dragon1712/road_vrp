@@ -1,0 +1,6922 @@
+[
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "greedy",
+    "planner": "static",
+    "seed": 42,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        24,
+        11,
+        5,
+        18,
+        2
+      ],
+      [
+        1,
+        27,
+        21,
+        17,
+        29,
+        26,
+        14
+      ],
+      [
+        12,
+        8,
+        20
+      ],
+      [
+        7,
+        16,
+        9,
+        6,
+        3,
+        15,
+        19,
+        22,
+        28,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        4
+      ]
+    ],
+    "loads": [
+      33,
+      28,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4974.372419926862,
+    "observed_edge_share": 0.18045112781954886,
+    "solver_diagnostics": {
+      "method": "greedy",
+      "surrogate_travel_sec": 4600.804348967703,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 0,
+      "accepted_moves": 0,
+      "best_improvements": 0,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.0074403537437319756,
+      "search_wall_sec": 0.0,
+      "score_calls": 1,
+      "route_score_calls": 1600,
+      "seed": 42,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "greedy",
+    "planner": "oracle",
+    "seed": 42,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        24,
+        5,
+        11,
+        18,
+        2,
+        26,
+        14,
+        7
+      ],
+      [
+        17,
+        21,
+        27,
+        1,
+        30
+      ],
+      [
+        20,
+        8,
+        12
+      ],
+      [
+        16,
+        9,
+        6,
+        3,
+        29,
+        19,
+        22,
+        28,
+        15,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        4
+      ]
+    ],
+    "loads": [
+      42,
+      19,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 5130.351047020929,
+    "observed_edge_share": 0.10873440285204991,
+    "solver_diagnostics": {
+      "method": "greedy",
+      "surrogate_travel_sec": 5104.120098393934,
+      "initial_surrogate_travel_sec": 5104.120098393934,
+      "iterations": 0,
+      "accepted_moves": 0,
+      "best_improvements": 0,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.04863724298775196,
+      "search_wall_sec": 0.0,
+      "score_calls": 1,
+      "route_score_calls": 1599,
+      "seed": 42,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "sa",
+    "planner": "static",
+    "seed": 42,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        16,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        18,
+        11,
+        24,
+        8,
+        4
+      ],
+      [
+        30,
+        5,
+        12,
+        1,
+        27,
+        21,
+        28,
+        22,
+        19,
+        2
+      ],
+      [
+        20
+      ],
+      [
+        7,
+        9,
+        6,
+        14,
+        26,
+        3,
+        29,
+        17,
+        15
+      ]
+    ],
+    "loads": [
+      12,
+      41,
+      45,
+      6,
+      38
+    ],
+    "recorded_cost_sec": 3866.539211655676,
+    "observed_edge_share": 0.20952380952380953,
+    "solver_diagnostics": {
+      "method": "sa",
+      "surrogate_travel_sec": 3458.936383464859,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 5000,
+      "accepted_moves": 1530,
+      "best_improvements": 35,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.006891021504998207,
+      "search_wall_sec": 0.10379548650234938,
+      "score_calls": 5001,
+      "route_score_calls": 4858,
+      "seed": 42,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "sa",
+    "planner": "oracle",
+    "seed": 42,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        16,
+        9,
+        7
+      ],
+      [
+        21,
+        28,
+        22,
+        19,
+        17,
+        29,
+        15,
+        3,
+        26,
+        14,
+        6
+      ],
+      [
+        20,
+        8,
+        24,
+        11,
+        18,
+        30,
+        4
+      ],
+      [
+        10,
+        27,
+        1,
+        5,
+        12,
+        13,
+        25,
+        2
+      ],
+      [
+        23
+      ]
+    ],
+    "loads": [
+      14,
+      44,
+      35,
+      43,
+      6
+    ],
+    "recorded_cost_sec": 3411.154158724472,
+    "observed_edge_share": 0.13367609254498714,
+    "solver_diagnostics": {
+      "method": "sa",
+      "surrogate_travel_sec": 3424.983741198899,
+      "initial_surrogate_travel_sec": 5104.120098393934,
+      "iterations": 5000,
+      "accepted_moves": 1317,
+      "best_improvements": 46,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.04837977234274149,
+      "search_wall_sec": 0.2634324599057436,
+      "score_calls": 5001,
+      "route_score_calls": 5855,
+      "seed": 42,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "vnd",
+    "planner": "static",
+    "seed": 42,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        18,
+        11,
+        24,
+        2
+      ],
+      [
+        14,
+        26,
+        17,
+        29,
+        21,
+        27,
+        1,
+        5
+      ],
+      [
+        12,
+        8,
+        20
+      ],
+      [
+        7,
+        16,
+        9,
+        6,
+        3,
+        19,
+        22,
+        28,
+        15,
+        23
+      ],
+      [
+        10,
+        13,
+        25,
+        4
+      ]
+    ],
+    "loads": [
+      28,
+      33,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4768.02580516407,
+    "observed_edge_share": 0.19729206963249515,
+    "solver_diagnostics": {
+      "method": "vnd",
+      "surrogate_travel_sec": 4392.975466315151,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 9,
+      "accepted_moves": 8,
+      "best_improvements": 8,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.006622673943638802,
+      "search_wall_sec": 0.004956016317009926,
+      "score_calls": 712,
+      "route_score_calls": 1943,
+      "seed": 42,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "vnd",
+    "planner": "oracle",
+    "seed": 42,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        17,
+        26,
+        14,
+        7
+      ],
+      [
+        30,
+        18,
+        11,
+        5,
+        1,
+        27,
+        21,
+        2
+      ],
+      [
+        20,
+        8,
+        12,
+        24
+      ],
+      [
+        16,
+        9,
+        6,
+        3,
+        29,
+        19,
+        22,
+        28,
+        15,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        4
+      ]
+    ],
+    "loads": [
+      17,
+      37,
+      24,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4547.830029740464,
+    "observed_edge_share": 0.17427385892116182,
+    "solver_diagnostics": {
+      "method": "vnd",
+      "surrogate_travel_sec": 4527.796942115063,
+      "initial_surrogate_travel_sec": 5104.120098393934,
+      "iterations": 17,
+      "accepted_moves": 16,
+      "best_improvements": 16,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.04828468803316355,
+      "search_wall_sec": 0.029701734893023968,
+      "score_calls": 1236,
+      "route_score_calls": 2150,
+      "seed": 42,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "alns",
+    "planner": "static",
+    "seed": 42,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        18,
+        11,
+        24,
+        8,
+        2
+      ],
+      [
+        20,
+        19,
+        22,
+        28,
+        17,
+        29,
+        15,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        12,
+        5,
+        1,
+        27,
+        21
+      ],
+      [
+        16,
+        9,
+        6,
+        14,
+        26,
+        3,
+        7
+      ],
+      [
+        4
+      ]
+    ],
+    "loads": [
+      32,
+      39,
+      38,
+      29,
+      4
+    ],
+    "recorded_cost_sec": 3701.4112154211034,
+    "observed_edge_share": 0.23785166240409208,
+    "solver_diagnostics": {
+      "method": "alns",
+      "surrogate_travel_sec": 3309.637029631889,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 5000,
+      "accepted_moves": 4135,
+      "best_improvements": 13,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.006704348139464855,
+      "search_wall_sec": 3.471468229778111,
+      "score_calls": 64896,
+      "route_score_calls": 92038,
+      "seed": 42,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {
+        "related": [
+          0,
+          0,
+          0.0
+        ],
+        "greedy": [
+          0,
+          0,
+          0.0
+        ],
+        "random": [
+          0,
+          0,
+          0.0
+        ],
+        "regret2": [
+          0,
+          0,
+          0.0
+        ],
+        "worst": [
+          0,
+          0,
+          0.0
+        ]
+      }
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "alns",
+    "planner": "oracle",
+    "seed": 42,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        8,
+        24,
+        11,
+        18,
+        30,
+        4
+      ],
+      [
+        21,
+        28,
+        22,
+        19,
+        29,
+        17,
+        15,
+        23
+      ],
+      [
+        10,
+        27,
+        1,
+        5,
+        12,
+        13,
+        25,
+        2
+      ],
+      [
+        16,
+        3,
+        26,
+        14,
+        6,
+        9,
+        7
+      ],
+      [
+        20
+      ]
+    ],
+    "loads": [
+      29,
+      35,
+      43,
+      29,
+      6
+    ],
+    "recorded_cost_sec": 3515.1685519566527,
+    "observed_edge_share": 0.12039312039312039,
+    "solver_diagnostics": {
+      "method": "alns",
+      "surrogate_travel_sec": 3528.2655772515573,
+      "initial_surrogate_travel_sec": 5104.120098393934,
+      "iterations": 2618,
+      "accepted_moves": 2252,
+      "best_improvements": 17,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.048937318846583366,
+      "search_wall_sec": 5.000000163912773,
+      "score_calls": 33506,
+      "route_score_calls": 89479,
+      "seed": 42,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {
+        "related": [
+          8,
+          6,
+          0.0
+        ],
+        "greedy": [
+          7,
+          5,
+          0.0
+        ],
+        "random": [
+          4,
+          4,
+          0.0
+        ],
+        "regret2": [
+          11,
+          10,
+          0.0
+        ],
+        "worst": [
+          6,
+          5,
+          0.0
+        ]
+      }
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "greedy",
+    "planner": "static",
+    "seed": 43,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        24,
+        11,
+        5,
+        18,
+        2
+      ],
+      [
+        1,
+        27,
+        21,
+        17,
+        29,
+        26,
+        14
+      ],
+      [
+        12,
+        8,
+        20
+      ],
+      [
+        7,
+        16,
+        9,
+        6,
+        3,
+        15,
+        19,
+        22,
+        28,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        4
+      ]
+    ],
+    "loads": [
+      33,
+      28,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4974.372419926862,
+    "observed_edge_share": 0.18045112781954886,
+    "solver_diagnostics": {
+      "method": "greedy",
+      "surrogate_travel_sec": 4600.804348967703,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 0,
+      "accepted_moves": 0,
+      "best_improvements": 0,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.0069029685109853745,
+      "search_wall_sec": 0.0,
+      "score_calls": 1,
+      "route_score_calls": 1600,
+      "seed": 43,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "greedy",
+    "planner": "oracle",
+    "seed": 43,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        24,
+        5,
+        11,
+        18,
+        2,
+        26,
+        14,
+        7
+      ],
+      [
+        17,
+        21,
+        27,
+        1,
+        30
+      ],
+      [
+        20,
+        8,
+        12
+      ],
+      [
+        16,
+        9,
+        6,
+        3,
+        29,
+        19,
+        22,
+        28,
+        15,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        4
+      ]
+    ],
+    "loads": [
+      42,
+      19,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 5130.351047020929,
+    "observed_edge_share": 0.10873440285204991,
+    "solver_diagnostics": {
+      "method": "greedy",
+      "surrogate_travel_sec": 5104.120098393934,
+      "initial_surrogate_travel_sec": 5104.120098393934,
+      "iterations": 0,
+      "accepted_moves": 0,
+      "best_improvements": 0,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.048468285240232944,
+      "search_wall_sec": 0.0,
+      "score_calls": 1,
+      "route_score_calls": 1599,
+      "seed": 43,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "sa",
+    "planner": "static",
+    "seed": 43,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        4,
+        30,
+        18,
+        11,
+        24,
+        2
+      ],
+      [
+        7
+      ],
+      [
+        8,
+        13,
+        12,
+        5,
+        1,
+        27,
+        25,
+        20
+      ],
+      [
+        10,
+        21,
+        28,
+        22,
+        19,
+        29,
+        17,
+        23
+      ],
+      [
+        16,
+        9,
+        6,
+        14,
+        26,
+        3,
+        15
+      ]
+    ],
+    "loads": [
+      32,
+      4,
+      40,
+      35,
+      31
+    ],
+    "recorded_cost_sec": 3714.370609277801,
+    "observed_edge_share": 0.165,
+    "solver_diagnostics": {
+      "method": "sa",
+      "surrogate_travel_sec": 3433.7453792132023,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 5000,
+      "accepted_moves": 1004,
+      "best_improvements": 33,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.006851290352642536,
+      "search_wall_sec": 0.10606020502746105,
+      "score_calls": 5001,
+      "route_score_calls": 5804,
+      "seed": 43,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "sa",
+    "planner": "oracle",
+    "seed": 43,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        20,
+        19,
+        22,
+        28,
+        17,
+        29,
+        15,
+        23
+      ],
+      [
+        16,
+        3,
+        26,
+        14,
+        6,
+        9
+      ],
+      [
+        10,
+        8,
+        24,
+        11,
+        18,
+        30,
+        4
+      ],
+      [
+        21,
+        27,
+        1,
+        5,
+        12,
+        13,
+        25,
+        2
+      ],
+      [
+        7
+      ]
+    ],
+    "loads": [
+      39,
+      25,
+      35,
+      39,
+      4
+    ],
+    "recorded_cost_sec": 3490.9522156960447,
+    "observed_edge_share": 0.15503875968992248,
+    "solver_diagnostics": {
+      "method": "sa",
+      "surrogate_travel_sec": 3494.3750948768575,
+      "initial_surrogate_travel_sec": 5104.120098393934,
+      "iterations": 5000,
+      "accepted_moves": 1071,
+      "best_improvements": 32,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.04878388252109289,
+      "search_wall_sec": 0.2616478428244591,
+      "score_calls": 5001,
+      "route_score_calls": 5838,
+      "seed": 43,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "vnd",
+    "planner": "static",
+    "seed": 43,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        18,
+        11,
+        24,
+        2
+      ],
+      [
+        14,
+        26,
+        17,
+        29,
+        21,
+        27,
+        1,
+        5
+      ],
+      [
+        12,
+        8,
+        20
+      ],
+      [
+        7,
+        16,
+        9,
+        6,
+        3,
+        19,
+        22,
+        28,
+        15,
+        23
+      ],
+      [
+        10,
+        13,
+        25,
+        4
+      ]
+    ],
+    "loads": [
+      28,
+      33,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4768.02580516407,
+    "observed_edge_share": 0.19729206963249515,
+    "solver_diagnostics": {
+      "method": "vnd",
+      "surrogate_travel_sec": 4392.975466315151,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 9,
+      "accepted_moves": 8,
+      "best_improvements": 8,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.006878992542624474,
+      "search_wall_sec": 0.004991721361875534,
+      "score_calls": 712,
+      "route_score_calls": 1943,
+      "seed": 43,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "vnd",
+    "planner": "oracle",
+    "seed": 43,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        17,
+        26,
+        14,
+        7
+      ],
+      [
+        30,
+        18,
+        11,
+        5,
+        1,
+        27,
+        21,
+        2
+      ],
+      [
+        20,
+        8,
+        12,
+        24
+      ],
+      [
+        16,
+        9,
+        6,
+        3,
+        29,
+        19,
+        22,
+        28,
+        15,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        4
+      ]
+    ],
+    "loads": [
+      17,
+      37,
+      24,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4547.830029740464,
+    "observed_edge_share": 0.17427385892116182,
+    "solver_diagnostics": {
+      "method": "vnd",
+      "surrogate_travel_sec": 4527.796942115063,
+      "initial_surrogate_travel_sec": 5104.120098393934,
+      "iterations": 17,
+      "accepted_moves": 16,
+      "best_improvements": 16,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.04855153989046812,
+      "search_wall_sec": 0.02977093867957592,
+      "score_calls": 1236,
+      "route_score_calls": 2150,
+      "seed": 43,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "alns",
+    "planner": "static",
+    "seed": 43,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        4,
+        30,
+        18,
+        11,
+        24,
+        8,
+        25,
+        2
+      ],
+      [
+        10,
+        13,
+        12,
+        5,
+        1,
+        27,
+        21,
+        28,
+        22,
+        19
+      ],
+      [
+        20
+      ],
+      [
+        6,
+        14,
+        26,
+        3,
+        17,
+        29,
+        15,
+        23
+      ],
+      [
+        16,
+        9,
+        7
+      ]
+    ],
+    "loads": [
+      41,
+      45,
+      6,
+      36,
+      14
+    ],
+    "recorded_cost_sec": 3607.2854892546893,
+    "observed_edge_share": 0.2076923076923077,
+    "solver_diagnostics": {
+      "method": "alns",
+      "surrogate_travel_sec": 3245.078485434712,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 5000,
+      "accepted_moves": 3455,
+      "best_improvements": 19,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.006895225495100021,
+      "search_wall_sec": 3.6822327626869082,
+      "score_calls": 65113,
+      "route_score_calls": 177410,
+      "seed": 43,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {
+        "worst": [
+          0,
+          0,
+          0.0
+        ],
+        "greedy": [
+          0,
+          0,
+          0.0
+        ],
+        "related": [
+          0,
+          0,
+          0.0
+        ],
+        "regret2": [
+          0,
+          0,
+          0.0
+        ],
+        "random": [
+          0,
+          0,
+          0.0
+        ]
+      }
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "alns",
+    "planner": "oracle",
+    "seed": 43,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        20
+      ],
+      [
+        21,
+        28,
+        22,
+        19,
+        29,
+        17,
+        15,
+        23
+      ],
+      [
+        10,
+        27,
+        1,
+        5,
+        12,
+        13,
+        25,
+        2
+      ],
+      [
+        16,
+        3,
+        26,
+        14,
+        6,
+        9,
+        7
+      ],
+      [
+        8,
+        24,
+        11,
+        18,
+        30,
+        4
+      ]
+    ],
+    "loads": [
+      6,
+      35,
+      43,
+      29,
+      29
+    ],
+    "recorded_cost_sec": 3515.1685519566527,
+    "observed_edge_share": 0.12039312039312039,
+    "solver_diagnostics": {
+      "method": "alns",
+      "surrogate_travel_sec": 3528.2655772515573,
+      "initial_surrogate_travel_sec": 5104.120098393934,
+      "iterations": 2185,
+      "accepted_moves": 1880,
+      "best_improvements": 18,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.04953442141413689,
+      "search_wall_sec": 5.001477039419115,
+      "score_calls": 27250,
+      "route_score_calls": 96042,
+      "seed": 43,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {
+        "worst": [
+          10,
+          8,
+          0.0
+        ],
+        "greedy": [
+          18,
+          15,
+          0.0
+        ],
+        "related": [
+          8,
+          8,
+          0.0
+        ],
+        "random": [
+          17,
+          14,
+          0.0
+        ],
+        "regret2": [
+          17,
+          15,
+          0.0
+        ]
+      }
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "greedy",
+    "planner": "static",
+    "seed": 44,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        24,
+        11,
+        5,
+        18,
+        2
+      ],
+      [
+        1,
+        27,
+        21,
+        17,
+        29,
+        26,
+        14
+      ],
+      [
+        12,
+        8,
+        20
+      ],
+      [
+        7,
+        16,
+        9,
+        6,
+        3,
+        15,
+        19,
+        22,
+        28,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        4
+      ]
+    ],
+    "loads": [
+      33,
+      28,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4974.372419926862,
+    "observed_edge_share": 0.18045112781954886,
+    "solver_diagnostics": {
+      "method": "greedy",
+      "surrogate_travel_sec": 4600.804348967703,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 0,
+      "accepted_moves": 0,
+      "best_improvements": 0,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.007123854011297226,
+      "search_wall_sec": 0.0,
+      "score_calls": 1,
+      "route_score_calls": 1600,
+      "seed": 44,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "greedy",
+    "planner": "oracle",
+    "seed": 44,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        24,
+        5,
+        11,
+        18,
+        2,
+        26,
+        14,
+        7
+      ],
+      [
+        17,
+        21,
+        27,
+        1,
+        30
+      ],
+      [
+        20,
+        8,
+        12
+      ],
+      [
+        16,
+        9,
+        6,
+        3,
+        29,
+        19,
+        22,
+        28,
+        15,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        4
+      ]
+    ],
+    "loads": [
+      42,
+      19,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 5130.351047020929,
+    "observed_edge_share": 0.10873440285204991,
+    "solver_diagnostics": {
+      "method": "greedy",
+      "surrogate_travel_sec": 5104.120098393934,
+      "initial_surrogate_travel_sec": 5104.120098393934,
+      "iterations": 0,
+      "accepted_moves": 0,
+      "best_improvements": 0,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.04874266963452101,
+      "search_wall_sec": 0.0,
+      "score_calls": 1,
+      "route_score_calls": 1599,
+      "seed": 44,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "sa",
+    "planner": "static",
+    "seed": 44,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        7,
+        14,
+        26,
+        3,
+        19,
+        22,
+        28,
+        17,
+        29,
+        15
+      ],
+      [
+        4
+      ],
+      [
+        30,
+        18,
+        11,
+        24,
+        8,
+        2
+      ],
+      [
+        16,
+        9,
+        6,
+        23
+      ],
+      [
+        20,
+        10,
+        25,
+        13,
+        12,
+        5,
+        1,
+        27,
+        21
+      ]
+    ],
+    "loads": [
+      44,
+      4,
+      32,
+      18,
+      44
+    ],
+    "recorded_cost_sec": 3697.2732505471213,
+    "observed_edge_share": 0.1989795918367347,
+    "solver_diagnostics": {
+      "method": "sa",
+      "surrogate_travel_sec": 3307.2943448120914,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 5000,
+      "accepted_moves": 1332,
+      "best_improvements": 41,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.007106105796992779,
+      "search_wall_sec": 0.10461170505732298,
+      "score_calls": 5001,
+      "route_score_calls": 5235,
+      "seed": 44,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "sa",
+    "planner": "oracle",
+    "seed": 44,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        25,
+        27,
+        1,
+        13,
+        12,
+        5,
+        11,
+        2
+      ],
+      [
+        23
+      ],
+      [
+        6,
+        14,
+        26,
+        3,
+        19,
+        22,
+        28,
+        17,
+        29,
+        15
+      ],
+      [
+        20,
+        21,
+        10,
+        8,
+        24,
+        18,
+        30,
+        4
+      ],
+      [
+        16,
+        9,
+        7
+      ]
+    ],
+    "loads": [
+      41,
+      6,
+      42,
+      39,
+      14
+    ],
+    "recorded_cost_sec": 3574.89660238981,
+    "observed_edge_share": 0.16752577319587628,
+    "solver_diagnostics": {
+      "method": "sa",
+      "surrogate_travel_sec": 3551.771617297316,
+      "initial_surrogate_travel_sec": 5104.120098393934,
+      "iterations": 5000,
+      "accepted_moves": 1322,
+      "best_improvements": 34,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.04959907755255699,
+      "search_wall_sec": 0.25488246232271194,
+      "score_calls": 5001,
+      "route_score_calls": 5609,
+      "seed": 44,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "vnd",
+    "planner": "static",
+    "seed": 44,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        18,
+        11,
+        24,
+        2
+      ],
+      [
+        14,
+        26,
+        17,
+        29,
+        21,
+        27,
+        1,
+        5
+      ],
+      [
+        12,
+        8,
+        20
+      ],
+      [
+        7,
+        16,
+        9,
+        6,
+        3,
+        19,
+        22,
+        28,
+        15,
+        23
+      ],
+      [
+        10,
+        13,
+        25,
+        4
+      ]
+    ],
+    "loads": [
+      28,
+      33,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4768.02580516407,
+    "observed_edge_share": 0.19729206963249515,
+    "solver_diagnostics": {
+      "method": "vnd",
+      "surrogate_travel_sec": 4392.975466315151,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 9,
+      "accepted_moves": 8,
+      "best_improvements": 8,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.013980631716549397,
+      "search_wall_sec": 0.004939170554280281,
+      "score_calls": 712,
+      "route_score_calls": 1943,
+      "seed": 44,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "vnd",
+    "planner": "oracle",
+    "seed": 44,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        17,
+        26,
+        14,
+        7
+      ],
+      [
+        30,
+        18,
+        11,
+        5,
+        1,
+        27,
+        21,
+        2
+      ],
+      [
+        20,
+        8,
+        12,
+        24
+      ],
+      [
+        16,
+        9,
+        6,
+        3,
+        29,
+        19,
+        22,
+        28,
+        15,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        4
+      ]
+    ],
+    "loads": [
+      17,
+      37,
+      24,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4547.830029740464,
+    "observed_edge_share": 0.17427385892116182,
+    "solver_diagnostics": {
+      "method": "vnd",
+      "surrogate_travel_sec": 4527.796942115063,
+      "initial_surrogate_travel_sec": 5104.120098393934,
+      "iterations": 17,
+      "accepted_moves": 16,
+      "best_improvements": 16,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.049774812534451485,
+      "search_wall_sec": 0.030091063119471073,
+      "score_calls": 1236,
+      "route_score_calls": 2150,
+      "seed": 44,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "alns",
+    "planner": "static",
+    "seed": 44,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        10,
+        25,
+        13,
+        12,
+        5,
+        1,
+        27,
+        21,
+        23
+      ],
+      [
+        6,
+        14,
+        26,
+        3,
+        19,
+        22,
+        28,
+        17,
+        29,
+        15
+      ],
+      [
+        20
+      ],
+      [
+        16,
+        9,
+        7
+      ],
+      [
+        4,
+        30,
+        18,
+        11,
+        24,
+        8,
+        2
+      ]
+    ],
+    "loads": [
+      44,
+      42,
+      6,
+      14,
+      36
+    ],
+    "recorded_cost_sec": 3638.33809025574,
+    "observed_edge_share": 0.23821989528795812,
+    "solver_diagnostics": {
+      "method": "alns",
+      "surrogate_travel_sec": 3206.0018676203563,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 5000,
+      "accepted_moves": 3460,
+      "best_improvements": 19,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.00735901016741991,
+      "search_wall_sec": 3.9140112726017833,
+      "score_calls": 65244,
+      "route_score_calls": 237100,
+      "seed": 44,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {
+        "random": [
+          0,
+          0,
+          0.0
+        ],
+        "greedy": [
+          0,
+          0,
+          0.0
+        ],
+        "worst": [
+          0,
+          0,
+          0.0
+        ],
+        "regret2": [
+          0,
+          0,
+          0.0
+        ],
+        "related": [
+          0,
+          0,
+          0.0
+        ]
+      }
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "alns",
+    "planner": "oracle",
+    "seed": 44,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        16,
+        9,
+        7
+      ],
+      [
+        21,
+        28,
+        22,
+        19,
+        29,
+        17,
+        15,
+        3,
+        26,
+        14,
+        6
+      ],
+      [
+        20,
+        8,
+        24,
+        11,
+        18,
+        30,
+        4
+      ],
+      [
+        23
+      ],
+      [
+        10,
+        27,
+        1,
+        5,
+        12,
+        13,
+        25,
+        2
+      ]
+    ],
+    "loads": [
+      14,
+      44,
+      35,
+      6,
+      43
+    ],
+    "recorded_cost_sec": 3411.154158724472,
+    "observed_edge_share": 0.13367609254498714,
+    "solver_diagnostics": {
+      "method": "alns",
+      "surrogate_travel_sec": 3424.983741198899,
+      "initial_surrogate_travel_sec": 5104.120098393934,
+      "iterations": 983,
+      "accepted_moves": 611,
+      "best_improvements": 23,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.04889575019478798,
+      "search_wall_sec": 5.0102146323770285,
+      "score_calls": 12200,
+      "route_score_calls": 105997,
+      "seed": 44,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {
+        "random": [
+          8,
+          6,
+          0.0
+        ],
+        "greedy": [
+          18,
+          10,
+          0.0
+        ],
+        "worst": [
+          9,
+          5,
+          0.0
+        ],
+        "regret2": [
+          15,
+          9,
+          0.0
+        ],
+        "related": [
+          16,
+          8,
+          0.0
+        ]
+      }
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "greedy",
+    "planner": "static",
+    "seed": 45,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        24,
+        11,
+        5,
+        18,
+        2
+      ],
+      [
+        1,
+        27,
+        21,
+        17,
+        29,
+        26,
+        14
+      ],
+      [
+        12,
+        8,
+        20
+      ],
+      [
+        7,
+        16,
+        9,
+        6,
+        3,
+        15,
+        19,
+        22,
+        28,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        4
+      ]
+    ],
+    "loads": [
+      33,
+      28,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4974.372419926862,
+    "observed_edge_share": 0.18045112781954886,
+    "solver_diagnostics": {
+      "method": "greedy",
+      "surrogate_travel_sec": 4600.804348967703,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 0,
+      "accepted_moves": 0,
+      "best_improvements": 0,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.0074493857100605965,
+      "search_wall_sec": 0.0,
+      "score_calls": 1,
+      "route_score_calls": 1600,
+      "seed": 45,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "greedy",
+    "planner": "oracle",
+    "seed": 45,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        24,
+        5,
+        11,
+        18,
+        2,
+        26,
+        14,
+        7
+      ],
+      [
+        17,
+        21,
+        27,
+        1,
+        30
+      ],
+      [
+        20,
+        8,
+        12
+      ],
+      [
+        16,
+        9,
+        6,
+        3,
+        29,
+        19,
+        22,
+        28,
+        15,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        4
+      ]
+    ],
+    "loads": [
+      42,
+      19,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 5130.351047020929,
+    "observed_edge_share": 0.10873440285204991,
+    "solver_diagnostics": {
+      "method": "greedy",
+      "surrogate_travel_sec": 5104.120098393934,
+      "initial_surrogate_travel_sec": 5104.120098393934,
+      "iterations": 0,
+      "accepted_moves": 0,
+      "best_improvements": 0,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.05036419630050659,
+      "search_wall_sec": 0.0,
+      "score_calls": 1,
+      "route_score_calls": 1599,
+      "seed": 45,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "sa",
+    "planner": "static",
+    "seed": 45,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        10,
+        25,
+        13,
+        12,
+        5,
+        1,
+        27,
+        2
+      ],
+      [
+        21,
+        28,
+        22,
+        19,
+        29,
+        17,
+        15,
+        23
+      ],
+      [
+        7
+      ],
+      [
+        4,
+        30,
+        18,
+        11,
+        24,
+        8,
+        20
+      ],
+      [
+        16,
+        9,
+        6,
+        14,
+        26,
+        3
+      ]
+    ],
+    "loads": [
+      43,
+      35,
+      4,
+      35,
+      25
+    ],
+    "recorded_cost_sec": 3572.365859070269,
+    "observed_edge_share": 0.2236842105263158,
+    "solver_diagnostics": {
+      "method": "sa",
+      "surrogate_travel_sec": 3214.3666278721234,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 5000,
+      "accepted_moves": 1075,
+      "best_improvements": 27,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.007436197251081467,
+      "search_wall_sec": 0.10678470600396395,
+      "score_calls": 5001,
+      "route_score_calls": 5518,
+      "seed": 45,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "sa",
+    "planner": "oracle",
+    "seed": 45,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        10,
+        25,
+        27,
+        1,
+        13,
+        24,
+        18,
+        2
+      ],
+      [
+        20,
+        8,
+        12,
+        5,
+        11,
+        30,
+        4
+      ],
+      [
+        23
+      ],
+      [
+        21,
+        28,
+        22,
+        19,
+        17,
+        29,
+        15
+      ],
+      [
+        16,
+        6,
+        14,
+        26,
+        3,
+        9,
+        7
+      ]
+    ],
+    "loads": [
+      45,
+      33,
+      6,
+      29,
+      29
+    ],
+    "recorded_cost_sec": 3708.5540276836255,
+    "observed_edge_share": 0.13221153846153846,
+    "solver_diagnostics": {
+      "method": "sa",
+      "surrogate_travel_sec": 3695.491898007982,
+      "initial_surrogate_travel_sec": 5104.120098393934,
+      "iterations": 5000,
+      "accepted_moves": 1268,
+      "best_improvements": 40,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.0500177713111043,
+      "search_wall_sec": 0.2732777679339051,
+      "score_calls": 5001,
+      "route_score_calls": 6050,
+      "seed": 45,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "vnd",
+    "planner": "static",
+    "seed": 45,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        18,
+        11,
+        24,
+        2
+      ],
+      [
+        14,
+        26,
+        17,
+        29,
+        21,
+        27,
+        1,
+        5
+      ],
+      [
+        12,
+        8,
+        20
+      ],
+      [
+        7,
+        16,
+        9,
+        6,
+        3,
+        19,
+        22,
+        28,
+        15,
+        23
+      ],
+      [
+        10,
+        13,
+        25,
+        4
+      ]
+    ],
+    "loads": [
+      28,
+      33,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4768.02580516407,
+    "observed_edge_share": 0.19729206963249515,
+    "solver_diagnostics": {
+      "method": "vnd",
+      "surrogate_travel_sec": 4392.975466315151,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 9,
+      "accepted_moves": 8,
+      "best_improvements": 8,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.00744121428579092,
+      "search_wall_sec": 0.005085702985525131,
+      "score_calls": 712,
+      "route_score_calls": 1943,
+      "seed": 45,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "vnd",
+    "planner": "oracle",
+    "seed": 45,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        17,
+        26,
+        14,
+        7
+      ],
+      [
+        30,
+        18,
+        11,
+        5,
+        1,
+        27,
+        21,
+        2
+      ],
+      [
+        20,
+        8,
+        12,
+        24
+      ],
+      [
+        16,
+        9,
+        6,
+        3,
+        29,
+        19,
+        22,
+        28,
+        15,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        4
+      ]
+    ],
+    "loads": [
+      17,
+      37,
+      24,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4547.830029740464,
+    "observed_edge_share": 0.17427385892116182,
+    "solver_diagnostics": {
+      "method": "vnd",
+      "surrogate_travel_sec": 4527.796942115063,
+      "initial_surrogate_travel_sec": 5104.120098393934,
+      "iterations": 17,
+      "accepted_moves": 16,
+      "best_improvements": 16,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.05087696295231581,
+      "search_wall_sec": 0.030430806800723076,
+      "score_calls": 1236,
+      "route_score_calls": 2150,
+      "seed": 45,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "alns",
+    "planner": "static",
+    "seed": 45,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        4,
+        30,
+        18,
+        11,
+        24,
+        8,
+        2
+      ],
+      [
+        6,
+        14,
+        26,
+        3,
+        19,
+        22,
+        28,
+        17,
+        29,
+        15
+      ],
+      [
+        10,
+        25,
+        13,
+        12,
+        5,
+        1,
+        27,
+        21,
+        23
+      ],
+      [
+        16,
+        9,
+        7
+      ],
+      [
+        20
+      ]
+    ],
+    "loads": [
+      36,
+      42,
+      44,
+      14,
+      6
+    ],
+    "recorded_cost_sec": 3638.33809025574,
+    "observed_edge_share": 0.23821989528795812,
+    "solver_diagnostics": {
+      "method": "alns",
+      "surrogate_travel_sec": 3206.0018676203563,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 5000,
+      "accepted_moves": 3514,
+      "best_improvements": 21,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.00747525691986084,
+      "search_wall_sec": 3.770562309771776,
+      "score_calls": 64830,
+      "route_score_calls": 179475,
+      "seed": 45,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {
+        "worst": [
+          0,
+          0,
+          0.0
+        ],
+        "regret2": [
+          0,
+          0,
+          0.0
+        ],
+        "related": [
+          0,
+          0,
+          0.0
+        ],
+        "greedy": [
+          0,
+          0,
+          0.0
+        ],
+        "random": [
+          0,
+          0,
+          0.0
+        ]
+      }
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "alns",
+    "planner": "oracle",
+    "seed": 45,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        7
+      ],
+      [
+        20,
+        21,
+        28,
+        22,
+        19,
+        29,
+        17,
+        15,
+        23
+      ],
+      [
+        10,
+        27,
+        1,
+        5,
+        12,
+        13,
+        25,
+        2
+      ],
+      [
+        16,
+        3,
+        26,
+        14,
+        6,
+        9
+      ],
+      [
+        8,
+        24,
+        11,
+        18,
+        30,
+        4
+      ]
+    ],
+    "loads": [
+      4,
+      41,
+      43,
+      25,
+      29
+    ],
+    "recorded_cost_sec": 3404.7783730779774,
+    "observed_edge_share": 0.12661498708010335,
+    "solver_diagnostics": {
+      "method": "alns",
+      "surrogate_travel_sec": 3419.785199188278,
+      "initial_surrogate_travel_sec": 5104.120098393934,
+      "iterations": 2430,
+      "accepted_moves": 2124,
+      "best_improvements": 17,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.05057486426085234,
+      "search_wall_sec": 5.000010629184544,
+      "score_calls": 31001,
+      "route_score_calls": 89131,
+      "seed": 45,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {
+        "worst": [
+          11,
+          11,
+          0.0
+        ],
+        "regret2": [
+          19,
+          18,
+          0.0
+        ],
+        "related": [
+          5,
+          2,
+          0.0
+        ],
+        "random": [
+          14,
+          15,
+          0.0
+        ],
+        "greedy": [
+          11,
+          10,
+          0.0
+        ]
+      }
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "greedy",
+    "planner": "static",
+    "seed": 46,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        24,
+        11,
+        5,
+        18,
+        2
+      ],
+      [
+        1,
+        27,
+        21,
+        17,
+        29,
+        26,
+        14
+      ],
+      [
+        12,
+        8,
+        20
+      ],
+      [
+        7,
+        16,
+        9,
+        6,
+        3,
+        15,
+        19,
+        22,
+        28,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        4
+      ]
+    ],
+    "loads": [
+      33,
+      28,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4974.372419926862,
+    "observed_edge_share": 0.18045112781954886,
+    "solver_diagnostics": {
+      "method": "greedy",
+      "surrogate_travel_sec": 4600.804348967703,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 0,
+      "accepted_moves": 0,
+      "best_improvements": 0,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.010675118304789066,
+      "search_wall_sec": 0.0,
+      "score_calls": 1,
+      "route_score_calls": 1600,
+      "seed": 46,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "greedy",
+    "planner": "oracle",
+    "seed": 46,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        24,
+        5,
+        11,
+        18,
+        2,
+        26,
+        14,
+        7
+      ],
+      [
+        17,
+        21,
+        27,
+        1,
+        30
+      ],
+      [
+        20,
+        8,
+        12
+      ],
+      [
+        16,
+        9,
+        6,
+        3,
+        29,
+        19,
+        22,
+        28,
+        15,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        4
+      ]
+    ],
+    "loads": [
+      42,
+      19,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 5130.351047020929,
+    "observed_edge_share": 0.10873440285204991,
+    "solver_diagnostics": {
+      "method": "greedy",
+      "surrogate_travel_sec": 5104.120098393934,
+      "initial_surrogate_travel_sec": 5104.120098393934,
+      "iterations": 0,
+      "accepted_moves": 0,
+      "best_improvements": 0,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.05030987039208412,
+      "search_wall_sec": 0.0,
+      "score_calls": 1,
+      "route_score_calls": 1599,
+      "seed": 46,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "sa",
+    "planner": "static",
+    "seed": 46,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        10,
+        25,
+        13,
+        12,
+        5,
+        1,
+        27,
+        2
+      ],
+      [
+        7
+      ],
+      [
+        4,
+        30,
+        18,
+        11,
+        24,
+        8,
+        20
+      ],
+      [
+        9,
+        6,
+        14,
+        26,
+        3,
+        23
+      ],
+      [
+        16,
+        15,
+        29,
+        17,
+        19,
+        22,
+        28,
+        21
+      ]
+    ],
+    "loads": [
+      43,
+      4,
+      35,
+      25,
+      35
+    ],
+    "recorded_cost_sec": 3615.720161906036,
+    "observed_edge_share": 0.26005361930294907,
+    "solver_diagnostics": {
+      "method": "sa",
+      "surrogate_travel_sec": 3241.04749967395,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 5000,
+      "accepted_moves": 1087,
+      "best_improvements": 43,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.0076095592230558395,
+      "search_wall_sec": 0.10831404104828835,
+      "score_calls": 5001,
+      "route_score_calls": 6019,
+      "seed": 46,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "sa",
+    "planner": "oracle",
+    "seed": 46,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        20,
+        19,
+        29,
+        17,
+        3,
+        26,
+        14,
+        6,
+        9,
+        7
+      ],
+      [
+        16,
+        23
+      ],
+      [
+        10,
+        25,
+        27,
+        1,
+        5,
+        12,
+        13,
+        8
+      ],
+      [
+        2
+      ],
+      [
+        15,
+        22,
+        28,
+        21,
+        24,
+        11,
+        18,
+        30,
+        4
+      ]
+    ],
+    "loads": [
+      42,
+      12,
+      40,
+      7,
+      41
+    ],
+    "recorded_cost_sec": 3856.841921977466,
+    "observed_edge_share": 0.1380952380952381,
+    "solver_diagnostics": {
+      "method": "sa",
+      "surrogate_travel_sec": 3867.0348023502156,
+      "initial_surrogate_travel_sec": 5104.120098393934,
+      "iterations": 5000,
+      "accepted_moves": 1320,
+      "best_improvements": 28,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.05054545775055885,
+      "search_wall_sec": 0.25658438354730606,
+      "score_calls": 5001,
+      "route_score_calls": 5502,
+      "seed": 46,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "vnd",
+    "planner": "static",
+    "seed": 46,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        18,
+        11,
+        24,
+        2
+      ],
+      [
+        14,
+        26,
+        17,
+        29,
+        21,
+        27,
+        1,
+        5
+      ],
+      [
+        12,
+        8,
+        20
+      ],
+      [
+        7,
+        16,
+        9,
+        6,
+        3,
+        19,
+        22,
+        28,
+        15,
+        23
+      ],
+      [
+        10,
+        13,
+        25,
+        4
+      ]
+    ],
+    "loads": [
+      28,
+      33,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4768.02580516407,
+    "observed_edge_share": 0.19729206963249515,
+    "solver_diagnostics": {
+      "method": "vnd",
+      "surrogate_travel_sec": 4392.975466315151,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 9,
+      "accepted_moves": 8,
+      "best_improvements": 8,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.007591011933982372,
+      "search_wall_sec": 0.0050941649824380875,
+      "score_calls": 712,
+      "route_score_calls": 1943,
+      "seed": 46,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "vnd",
+    "planner": "oracle",
+    "seed": 46,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        17,
+        26,
+        14,
+        7
+      ],
+      [
+        30,
+        18,
+        11,
+        5,
+        1,
+        27,
+        21,
+        2
+      ],
+      [
+        20,
+        8,
+        12,
+        24
+      ],
+      [
+        16,
+        9,
+        6,
+        3,
+        29,
+        19,
+        22,
+        28,
+        15,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        4
+      ]
+    ],
+    "loads": [
+      17,
+      37,
+      24,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4547.830029740464,
+    "observed_edge_share": 0.17427385892116182,
+    "solver_diagnostics": {
+      "method": "vnd",
+      "surrogate_travel_sec": 4527.796942115063,
+      "initial_surrogate_travel_sec": 5104.120098393934,
+      "iterations": 17,
+      "accepted_moves": 16,
+      "best_improvements": 16,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.05105376895517111,
+      "search_wall_sec": 0.03012836817651987,
+      "score_calls": 1236,
+      "route_score_calls": 2150,
+      "seed": 46,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "alns",
+    "planner": "static",
+    "seed": 46,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        4,
+        30,
+        18,
+        11,
+        24,
+        8,
+        2
+      ],
+      [
+        6,
+        14,
+        26,
+        3,
+        19,
+        22,
+        28,
+        17,
+        29,
+        15
+      ],
+      [
+        10,
+        25,
+        13,
+        12,
+        5,
+        1,
+        27,
+        21,
+        23
+      ],
+      [
+        16,
+        9,
+        7
+      ],
+      [
+        20
+      ]
+    ],
+    "loads": [
+      36,
+      42,
+      44,
+      14,
+      6
+    ],
+    "recorded_cost_sec": 3638.33809025574,
+    "observed_edge_share": 0.23821989528795812,
+    "solver_diagnostics": {
+      "method": "alns",
+      "surrogate_travel_sec": 3206.0018676203563,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 5000,
+      "accepted_moves": 3490,
+      "best_improvements": 20,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.00762589368969202,
+      "search_wall_sec": 3.7811672519892454,
+      "score_calls": 65027,
+      "route_score_calls": 162213,
+      "seed": 46,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {
+        "related": [
+          0,
+          0,
+          0.0
+        ],
+        "greedy": [
+          0,
+          0,
+          0.0
+        ],
+        "regret2": [
+          0,
+          0,
+          0.0
+        ],
+        "random": [
+          0,
+          0,
+          0.0
+        ],
+        "worst": [
+          0,
+          0,
+          0.0
+        ]
+      }
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-05_0800",
+    "departure_local": "2025-06-05 08:00:00",
+    "solver": "alns",
+    "planner": "oracle",
+    "seed": 46,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        16,
+        3,
+        26,
+        14,
+        6,
+        9,
+        7
+      ],
+      [
+        4
+      ],
+      [
+        8,
+        24,
+        11,
+        18,
+        30
+      ],
+      [
+        20,
+        21,
+        28,
+        22,
+        19,
+        17,
+        29,
+        15,
+        23
+      ],
+      [
+        10,
+        27,
+        1,
+        12,
+        5,
+        13,
+        25,
+        2
+      ]
+    ],
+    "loads": [
+      29,
+      4,
+      25,
+      41,
+      43
+    ],
+    "recorded_cost_sec": 3533.884117697191,
+    "observed_edge_share": 0.12373737373737374,
+    "solver_diagnostics": {
+      "method": "alns",
+      "surrogate_travel_sec": 3549.530895608128,
+      "initial_surrogate_travel_sec": 5104.120098393934,
+      "iterations": 1748,
+      "accepted_moves": 1482,
+      "best_improvements": 17,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.050465005449950695,
+      "search_wall_sec": 5.000938320532441,
+      "score_calls": 21920,
+      "route_score_calls": 95402,
+      "seed": 46,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {
+        "related": [
+          15,
+          10,
+          0.0
+        ],
+        "greedy": [
+          23,
+          20,
+          0.0
+        ],
+        "worst": [
+          18,
+          17,
+          0.0
+        ],
+        "regret2": [
+          25,
+          20,
+          0.0
+        ],
+        "random": [
+          15,
+          13,
+          0.0
+        ]
+      }
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "greedy",
+    "planner": "static",
+    "seed": 42,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        24,
+        11,
+        5,
+        18,
+        2
+      ],
+      [
+        1,
+        27,
+        21,
+        17,
+        29,
+        26,
+        14
+      ],
+      [
+        12,
+        8,
+        20
+      ],
+      [
+        7,
+        16,
+        9,
+        6,
+        3,
+        15,
+        19,
+        22,
+        28,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        4
+      ]
+    ],
+    "loads": [
+      33,
+      28,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4949.077769970463,
+    "observed_edge_share": 0.21550094517958412,
+    "solver_diagnostics": {
+      "method": "greedy",
+      "surrogate_travel_sec": 4600.804348967703,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 0,
+      "accepted_moves": 0,
+      "best_improvements": 0,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.007656729780137539,
+      "search_wall_sec": 0.0,
+      "score_calls": 1,
+      "route_score_calls": 1600,
+      "seed": 42,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "greedy",
+    "planner": "oracle",
+    "seed": 42,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        24,
+        11,
+        5,
+        18,
+        2
+      ],
+      [
+        14,
+        26,
+        3,
+        17,
+        21,
+        27,
+        1
+      ],
+      [
+        8,
+        12,
+        30
+      ],
+      [
+        6,
+        9,
+        7,
+        16,
+        19,
+        22,
+        28,
+        29,
+        15,
+        23
+      ],
+      [
+        20,
+        10,
+        13,
+        25,
+        4
+      ]
+    ],
+    "loads": [
+      30,
+      29,
+      14,
+      44,
+      25
+    ],
+    "recorded_cost_sec": 4965.931997383828,
+    "observed_edge_share": 0.09386281588447654,
+    "solver_diagnostics": {
+      "method": "greedy",
+      "surrogate_travel_sec": 4932.677739540872,
+      "initial_surrogate_travel_sec": 4932.677739540872,
+      "iterations": 0,
+      "accepted_moves": 0,
+      "best_improvements": 0,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.05147880036383867,
+      "search_wall_sec": 0.0,
+      "score_calls": 1,
+      "route_score_calls": 1617,
+      "seed": 42,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "sa",
+    "planner": "static",
+    "seed": 42,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        16,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        18,
+        11,
+        24,
+        8,
+        4
+      ],
+      [
+        30,
+        5,
+        12,
+        1,
+        27,
+        21,
+        28,
+        22,
+        19,
+        2
+      ],
+      [
+        20
+      ],
+      [
+        7,
+        9,
+        6,
+        14,
+        26,
+        3,
+        29,
+        17,
+        15
+      ]
+    ],
+    "loads": [
+      12,
+      41,
+      45,
+      6,
+      38
+    ],
+    "recorded_cost_sec": 3827.9367736599525,
+    "observed_edge_share": 0.2289156626506024,
+    "solver_diagnostics": {
+      "method": "sa",
+      "surrogate_travel_sec": 3458.936383464859,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 5000,
+      "accepted_moves": 1530,
+      "best_improvements": 35,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.0074234772473573685,
+      "search_wall_sec": 0.10638116393238306,
+      "score_calls": 5001,
+      "route_score_calls": 4858,
+      "seed": 42,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "sa",
+    "planner": "oracle",
+    "seed": 42,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        16,
+        9,
+        6,
+        14,
+        26,
+        3,
+        15,
+        23
+      ],
+      [
+        17,
+        29,
+        19,
+        22,
+        28,
+        21,
+        2
+      ],
+      [
+        18,
+        11,
+        5,
+        12,
+        13,
+        1,
+        27,
+        25
+      ],
+      [
+        20,
+        10,
+        8,
+        24,
+        30,
+        4
+      ],
+      [
+        7
+      ]
+    ],
+    "loads": [
+      37,
+      30,
+      41,
+      30,
+      4
+    ],
+    "recorded_cost_sec": 3707.2147301693913,
+    "observed_edge_share": 0.14713216957605985,
+    "solver_diagnostics": {
+      "method": "sa",
+      "surrogate_travel_sec": 3700.287468609109,
+      "initial_surrogate_travel_sec": 4932.677739540872,
+      "iterations": 5000,
+      "accepted_moves": 1057,
+      "best_improvements": 38,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.05134310573339462,
+      "search_wall_sec": 0.277035060338676,
+      "score_calls": 5001,
+      "route_score_calls": 6285,
+      "seed": 42,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "vnd",
+    "planner": "static",
+    "seed": 42,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        18,
+        11,
+        24,
+        2
+      ],
+      [
+        14,
+        26,
+        17,
+        29,
+        21,
+        27,
+        1,
+        5
+      ],
+      [
+        12,
+        8,
+        20
+      ],
+      [
+        7,
+        16,
+        9,
+        6,
+        3,
+        19,
+        22,
+        28,
+        15,
+        23
+      ],
+      [
+        10,
+        13,
+        25,
+        4
+      ]
+    ],
+    "loads": [
+      28,
+      33,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4775.376255273703,
+    "observed_edge_share": 0.174573055028463,
+    "solver_diagnostics": {
+      "method": "vnd",
+      "surrogate_travel_sec": 4392.975466315151,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 9,
+      "accepted_moves": 8,
+      "best_improvements": 8,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.0075399428606033325,
+      "search_wall_sec": 0.005124521441757679,
+      "score_calls": 712,
+      "route_score_calls": 1943,
+      "seed": 42,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "vnd",
+    "planner": "oracle",
+    "seed": 42,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        2
+      ],
+      [
+        14,
+        26,
+        3,
+        17,
+        21,
+        27,
+        1,
+        5,
+        11,
+        24
+      ],
+      [
+        8,
+        12,
+        18,
+        30
+      ],
+      [
+        6,
+        9,
+        7,
+        16,
+        19,
+        22,
+        28,
+        29,
+        15,
+        23
+      ],
+      [
+        20,
+        10,
+        13,
+        25,
+        4
+      ]
+    ],
+    "loads": [
+      7,
+      45,
+      21,
+      44,
+      25
+    ],
+    "recorded_cost_sec": 4664.635819094488,
+    "observed_edge_share": 0.10857142857142857,
+    "solver_diagnostics": {
+      "method": "vnd",
+      "surrogate_travel_sec": 4655.9214659152785,
+      "initial_surrogate_travel_sec": 4932.677739540872,
+      "iterations": 7,
+      "accepted_moves": 6,
+      "best_improvements": 6,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.05103730037808418,
+      "search_wall_sec": 0.01976194605231285,
+      "score_calls": 756,
+      "route_score_calls": 1959,
+      "seed": 42,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "alns",
+    "planner": "static",
+    "seed": 42,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        18,
+        11,
+        24,
+        8,
+        2
+      ],
+      [
+        20,
+        19,
+        22,
+        28,
+        17,
+        29,
+        15,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        12,
+        5,
+        1,
+        27,
+        21
+      ],
+      [
+        16,
+        9,
+        6,
+        14,
+        26,
+        3,
+        7
+      ],
+      [
+        4
+      ]
+    ],
+    "loads": [
+      32,
+      39,
+      38,
+      29,
+      4
+    ],
+    "recorded_cost_sec": 3621.026465717703,
+    "observed_edge_share": 0.23636363636363636,
+    "solver_diagnostics": {
+      "method": "alns",
+      "surrogate_travel_sec": 3309.637029631889,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 5000,
+      "accepted_moves": 4135,
+      "best_improvements": 13,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.007461944594979286,
+      "search_wall_sec": 3.6391035774722695,
+      "score_calls": 64896,
+      "route_score_calls": 92038,
+      "seed": 42,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {
+        "related": [
+          0,
+          0,
+          0.0
+        ],
+        "greedy": [
+          0,
+          0,
+          0.0
+        ],
+        "random": [
+          0,
+          0,
+          0.0
+        ],
+        "regret2": [
+          0,
+          0,
+          0.0
+        ],
+        "worst": [
+          0,
+          0,
+          0.0
+        ]
+      }
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "alns",
+    "planner": "oracle",
+    "seed": 42,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        10,
+        25,
+        13,
+        5,
+        12,
+        1,
+        27,
+        2
+      ],
+      [
+        16,
+        3,
+        26,
+        14,
+        6,
+        9,
+        7
+      ],
+      [
+        8,
+        24,
+        11,
+        18,
+        30
+      ],
+      [
+        20,
+        21,
+        28,
+        22,
+        19,
+        29,
+        17,
+        15,
+        23
+      ],
+      [
+        4
+      ]
+    ],
+    "loads": [
+      43,
+      29,
+      25,
+      41,
+      4
+    ],
+    "recorded_cost_sec": 3508.202668245707,
+    "observed_edge_share": 0.11886304909560723,
+    "solver_diagnostics": {
+      "method": "alns",
+      "surrogate_travel_sec": 3519.3610159626114,
+      "initial_surrogate_travel_sec": 4932.677739540872,
+      "iterations": 2244,
+      "accepted_moves": 1875,
+      "best_improvements": 18,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.051404619589447975,
+      "search_wall_sec": 5.000455433502793,
+      "score_calls": 28012,
+      "route_score_calls": 92211,
+      "seed": 42,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {
+        "related": [
+          12,
+          13,
+          0.0
+        ],
+        "greedy": [
+          14,
+          11,
+          0.0
+        ],
+        "random": [
+          19,
+          17,
+          0.0
+        ],
+        "regret2": [
+          30,
+          29,
+          0.0
+        ],
+        "worst": [
+          13,
+          10,
+          0.0
+        ]
+      }
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "greedy",
+    "planner": "static",
+    "seed": 43,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        24,
+        11,
+        5,
+        18,
+        2
+      ],
+      [
+        1,
+        27,
+        21,
+        17,
+        29,
+        26,
+        14
+      ],
+      [
+        12,
+        8,
+        20
+      ],
+      [
+        7,
+        16,
+        9,
+        6,
+        3,
+        15,
+        19,
+        22,
+        28,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        4
+      ]
+    ],
+    "loads": [
+      33,
+      28,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4949.077769970463,
+    "observed_edge_share": 0.21550094517958412,
+    "solver_diagnostics": {
+      "method": "greedy",
+      "surrogate_travel_sec": 4600.804348967703,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 0,
+      "accepted_moves": 0,
+      "best_improvements": 0,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.007582908496260643,
+      "search_wall_sec": 0.0,
+      "score_calls": 1,
+      "route_score_calls": 1600,
+      "seed": 43,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "greedy",
+    "planner": "oracle",
+    "seed": 43,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        24,
+        11,
+        5,
+        18,
+        2
+      ],
+      [
+        14,
+        26,
+        3,
+        17,
+        21,
+        27,
+        1
+      ],
+      [
+        8,
+        12,
+        30
+      ],
+      [
+        6,
+        9,
+        7,
+        16,
+        19,
+        22,
+        28,
+        29,
+        15,
+        23
+      ],
+      [
+        20,
+        10,
+        13,
+        25,
+        4
+      ]
+    ],
+    "loads": [
+      30,
+      29,
+      14,
+      44,
+      25
+    ],
+    "recorded_cost_sec": 4965.931997383828,
+    "observed_edge_share": 0.09386281588447654,
+    "solver_diagnostics": {
+      "method": "greedy",
+      "surrogate_travel_sec": 4932.677739540872,
+      "initial_surrogate_travel_sec": 4932.677739540872,
+      "iterations": 0,
+      "accepted_moves": 0,
+      "best_improvements": 0,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.05124290194362402,
+      "search_wall_sec": 0.0,
+      "score_calls": 1,
+      "route_score_calls": 1617,
+      "seed": 43,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "sa",
+    "planner": "static",
+    "seed": 43,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        4,
+        30,
+        18,
+        11,
+        24,
+        2
+      ],
+      [
+        7
+      ],
+      [
+        8,
+        13,
+        12,
+        5,
+        1,
+        27,
+        25,
+        20
+      ],
+      [
+        10,
+        21,
+        28,
+        22,
+        19,
+        29,
+        17,
+        23
+      ],
+      [
+        16,
+        9,
+        6,
+        14,
+        26,
+        3,
+        15
+      ]
+    ],
+    "loads": [
+      32,
+      4,
+      40,
+      35,
+      31
+    ],
+    "recorded_cost_sec": 3652.696251730551,
+    "observed_edge_share": 0.17293233082706766,
+    "solver_diagnostics": {
+      "method": "sa",
+      "surrogate_travel_sec": 3433.7453792132023,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 5000,
+      "accepted_moves": 1004,
+      "best_improvements": 33,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.00818751472979784,
+      "search_wall_sec": 0.10670445021241903,
+      "score_calls": 5001,
+      "route_score_calls": 5804,
+      "seed": 43,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "sa",
+    "planner": "oracle",
+    "seed": 43,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        16,
+        3,
+        26,
+        14,
+        6,
+        9
+      ],
+      [
+        21,
+        28,
+        22,
+        19,
+        29,
+        17,
+        15,
+        23
+      ],
+      [
+        20,
+        8,
+        24,
+        11,
+        18,
+        2
+      ],
+      [
+        7
+      ],
+      [
+        10,
+        25,
+        27,
+        1,
+        13,
+        12,
+        5,
+        30,
+        4
+      ]
+    ],
+    "loads": [
+      25,
+      35,
+      35,
+      4,
+      43
+    ],
+    "recorded_cost_sec": 3471.208031679329,
+    "observed_edge_share": 0.14285714285714285,
+    "solver_diagnostics": {
+      "method": "sa",
+      "surrogate_travel_sec": 3478.6182702413644,
+      "initial_surrogate_travel_sec": 4932.677739540872,
+      "iterations": 5000,
+      "accepted_moves": 984,
+      "best_improvements": 38,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.05131502076983452,
+      "search_wall_sec": 0.2623463561758399,
+      "score_calls": 5001,
+      "route_score_calls": 5777,
+      "seed": 43,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "vnd",
+    "planner": "static",
+    "seed": 43,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        18,
+        11,
+        24,
+        2
+      ],
+      [
+        14,
+        26,
+        17,
+        29,
+        21,
+        27,
+        1,
+        5
+      ],
+      [
+        12,
+        8,
+        20
+      ],
+      [
+        7,
+        16,
+        9,
+        6,
+        3,
+        19,
+        22,
+        28,
+        15,
+        23
+      ],
+      [
+        10,
+        13,
+        25,
+        4
+      ]
+    ],
+    "loads": [
+      28,
+      33,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4775.376255273703,
+    "observed_edge_share": 0.174573055028463,
+    "solver_diagnostics": {
+      "method": "vnd",
+      "surrogate_travel_sec": 4392.975466315151,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 9,
+      "accepted_moves": 8,
+      "best_improvements": 8,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.007547535002231598,
+      "search_wall_sec": 0.0049952734261751175,
+      "score_calls": 712,
+      "route_score_calls": 1943,
+      "seed": 43,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "vnd",
+    "planner": "oracle",
+    "seed": 43,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        2
+      ],
+      [
+        14,
+        26,
+        3,
+        17,
+        21,
+        27,
+        1,
+        5,
+        11,
+        24
+      ],
+      [
+        8,
+        12,
+        18,
+        30
+      ],
+      [
+        6,
+        9,
+        7,
+        16,
+        19,
+        22,
+        28,
+        29,
+        15,
+        23
+      ],
+      [
+        20,
+        10,
+        13,
+        25,
+        4
+      ]
+    ],
+    "loads": [
+      7,
+      45,
+      21,
+      44,
+      25
+    ],
+    "recorded_cost_sec": 4664.635819094488,
+    "observed_edge_share": 0.10857142857142857,
+    "solver_diagnostics": {
+      "method": "vnd",
+      "surrogate_travel_sec": 4655.9214659152785,
+      "initial_surrogate_travel_sec": 4932.677739540872,
+      "iterations": 7,
+      "accepted_moves": 6,
+      "best_improvements": 6,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.05156286712735891,
+      "search_wall_sec": 0.01976195629686117,
+      "score_calls": 756,
+      "route_score_calls": 1959,
+      "seed": 43,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "alns",
+    "planner": "static",
+    "seed": 43,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        4,
+        30,
+        18,
+        11,
+        24,
+        8,
+        25,
+        2
+      ],
+      [
+        10,
+        13,
+        12,
+        5,
+        1,
+        27,
+        21,
+        28,
+        22,
+        19
+      ],
+      [
+        20
+      ],
+      [
+        6,
+        14,
+        26,
+        3,
+        17,
+        29,
+        15,
+        23
+      ],
+      [
+        16,
+        9,
+        7
+      ]
+    ],
+    "loads": [
+      41,
+      45,
+      6,
+      36,
+      14
+    ],
+    "recorded_cost_sec": 3547.623413744266,
+    "observed_edge_share": 0.21772151898734177,
+    "solver_diagnostics": {
+      "method": "alns",
+      "surrogate_travel_sec": 3245.078485434712,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 5000,
+      "accepted_moves": 3455,
+      "best_improvements": 19,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.007609398104250431,
+      "search_wall_sec": 4.028869241476059,
+      "score_calls": 65113,
+      "route_score_calls": 177410,
+      "seed": 43,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {
+        "worst": [
+          0,
+          0,
+          0.0
+        ],
+        "greedy": [
+          0,
+          0,
+          0.0
+        ],
+        "related": [
+          0,
+          0,
+          0.0
+        ],
+        "regret2": [
+          0,
+          0,
+          0.0
+        ],
+        "random": [
+          0,
+          0,
+          0.0
+        ]
+      }
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "alns",
+    "planner": "oracle",
+    "seed": 43,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        4
+      ],
+      [
+        16,
+        3,
+        26,
+        14,
+        6,
+        9,
+        7
+      ],
+      [
+        10,
+        25,
+        13,
+        5,
+        12,
+        1,
+        27,
+        2
+      ],
+      [
+        20,
+        21,
+        28,
+        22,
+        19,
+        29,
+        17,
+        15,
+        23
+      ],
+      [
+        8,
+        24,
+        11,
+        18,
+        30
+      ]
+    ],
+    "loads": [
+      4,
+      29,
+      43,
+      41,
+      25
+    ],
+    "recorded_cost_sec": 3508.202668245707,
+    "observed_edge_share": 0.11886304909560723,
+    "solver_diagnostics": {
+      "method": "alns",
+      "surrogate_travel_sec": 3519.3610159626114,
+      "initial_surrogate_travel_sec": 4932.677739540872,
+      "iterations": 1725,
+      "accepted_moves": 1401,
+      "best_improvements": 16,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.05106395948678255,
+      "search_wall_sec": 5.003691129386425,
+      "score_calls": 21535,
+      "route_score_calls": 100430,
+      "seed": 43,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {
+        "worst": [
+          2,
+          1,
+          0.0
+        ],
+        "greedy": [
+          11,
+          9,
+          0.0
+        ],
+        "related": [
+          11,
+          6,
+          0.0
+        ],
+        "random": [
+          12,
+          11,
+          0.0
+        ],
+        "regret2": [
+          14,
+          9,
+          0.0
+        ]
+      }
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "greedy",
+    "planner": "static",
+    "seed": 44,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        24,
+        11,
+        5,
+        18,
+        2
+      ],
+      [
+        1,
+        27,
+        21,
+        17,
+        29,
+        26,
+        14
+      ],
+      [
+        12,
+        8,
+        20
+      ],
+      [
+        7,
+        16,
+        9,
+        6,
+        3,
+        15,
+        19,
+        22,
+        28,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        4
+      ]
+    ],
+    "loads": [
+      33,
+      28,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4949.077769970463,
+    "observed_edge_share": 0.21550094517958412,
+    "solver_diagnostics": {
+      "method": "greedy",
+      "surrogate_travel_sec": 4600.804348967703,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 0,
+      "accepted_moves": 0,
+      "best_improvements": 0,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.0075723519548773766,
+      "search_wall_sec": 0.0,
+      "score_calls": 1,
+      "route_score_calls": 1600,
+      "seed": 44,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "greedy",
+    "planner": "oracle",
+    "seed": 44,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        24,
+        11,
+        5,
+        18,
+        2
+      ],
+      [
+        14,
+        26,
+        3,
+        17,
+        21,
+        27,
+        1
+      ],
+      [
+        8,
+        12,
+        30
+      ],
+      [
+        6,
+        9,
+        7,
+        16,
+        19,
+        22,
+        28,
+        29,
+        15,
+        23
+      ],
+      [
+        20,
+        10,
+        13,
+        25,
+        4
+      ]
+    ],
+    "loads": [
+      30,
+      29,
+      14,
+      44,
+      25
+    ],
+    "recorded_cost_sec": 4965.931997383828,
+    "observed_edge_share": 0.09386281588447654,
+    "solver_diagnostics": {
+      "method": "greedy",
+      "surrogate_travel_sec": 4932.677739540872,
+      "initial_surrogate_travel_sec": 4932.677739540872,
+      "iterations": 0,
+      "accepted_moves": 0,
+      "best_improvements": 0,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.05107345338910818,
+      "search_wall_sec": 0.0,
+      "score_calls": 1,
+      "route_score_calls": 1617,
+      "seed": 44,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "sa",
+    "planner": "static",
+    "seed": 44,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        7,
+        14,
+        26,
+        3,
+        19,
+        22,
+        28,
+        17,
+        29,
+        15
+      ],
+      [
+        4
+      ],
+      [
+        30,
+        18,
+        11,
+        24,
+        8,
+        2
+      ],
+      [
+        16,
+        9,
+        6,
+        23
+      ],
+      [
+        20,
+        10,
+        25,
+        13,
+        12,
+        5,
+        1,
+        27,
+        21
+      ]
+    ],
+    "loads": [
+      44,
+      4,
+      32,
+      18,
+      44
+    ],
+    "recorded_cost_sec": 3589.7790956663666,
+    "observed_edge_share": 0.2393617021276596,
+    "solver_diagnostics": {
+      "method": "sa",
+      "surrogate_travel_sec": 3307.2943448120914,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 5000,
+      "accepted_moves": 1332,
+      "best_improvements": 41,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.007690791971981525,
+      "search_wall_sec": 0.10796610824763775,
+      "score_calls": 5001,
+      "route_score_calls": 5235,
+      "seed": 44,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "sa",
+    "planner": "oracle",
+    "seed": 44,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        16,
+        6,
+        14,
+        26,
+        3,
+        17,
+        29,
+        15,
+        23
+      ],
+      [
+        4
+      ],
+      [
+        9,
+        7
+      ],
+      [
+        30,
+        18,
+        11,
+        5,
+        12,
+        24,
+        8,
+        2
+      ],
+      [
+        20,
+        10,
+        25,
+        13,
+        1,
+        27,
+        21,
+        28,
+        22,
+        19
+      ]
+    ],
+    "loads": [
+      42,
+      4,
+      8,
+      44,
+      44
+    ],
+    "recorded_cost_sec": 3667.5171906386386,
+    "observed_edge_share": 0.20537897310513448,
+    "solver_diagnostics": {
+      "method": "sa",
+      "surrogate_travel_sec": 3674.8923368552933,
+      "initial_surrogate_travel_sec": 4932.677739540872,
+      "iterations": 5000,
+      "accepted_moves": 1291,
+      "best_improvements": 31,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.051259204745292664,
+      "search_wall_sec": 0.24807512760162354,
+      "score_calls": 5001,
+      "route_score_calls": 5347,
+      "seed": 44,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "vnd",
+    "planner": "static",
+    "seed": 44,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        18,
+        11,
+        24,
+        2
+      ],
+      [
+        14,
+        26,
+        17,
+        29,
+        21,
+        27,
+        1,
+        5
+      ],
+      [
+        12,
+        8,
+        20
+      ],
+      [
+        7,
+        16,
+        9,
+        6,
+        3,
+        19,
+        22,
+        28,
+        15,
+        23
+      ],
+      [
+        10,
+        13,
+        25,
+        4
+      ]
+    ],
+    "loads": [
+      28,
+      33,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4775.376255273703,
+    "observed_edge_share": 0.174573055028463,
+    "solver_diagnostics": {
+      "method": "vnd",
+      "surrogate_travel_sec": 4392.975466315151,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 9,
+      "accepted_moves": 8,
+      "best_improvements": 8,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.01592598855495453,
+      "search_wall_sec": 0.005087563768029213,
+      "score_calls": 712,
+      "route_score_calls": 1943,
+      "seed": 44,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "vnd",
+    "planner": "oracle",
+    "seed": 44,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        2
+      ],
+      [
+        14,
+        26,
+        3,
+        17,
+        21,
+        27,
+        1,
+        5,
+        11,
+        24
+      ],
+      [
+        8,
+        12,
+        18,
+        30
+      ],
+      [
+        6,
+        9,
+        7,
+        16,
+        19,
+        22,
+        28,
+        29,
+        15,
+        23
+      ],
+      [
+        20,
+        10,
+        13,
+        25,
+        4
+      ]
+    ],
+    "loads": [
+      7,
+      45,
+      21,
+      44,
+      25
+    ],
+    "recorded_cost_sec": 4664.635819094488,
+    "observed_edge_share": 0.10857142857142857,
+    "solver_diagnostics": {
+      "method": "vnd",
+      "surrogate_travel_sec": 4655.9214659152785,
+      "initial_surrogate_travel_sec": 4932.677739540872,
+      "iterations": 7,
+      "accepted_moves": 6,
+      "best_improvements": 6,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.051497516222298145,
+      "search_wall_sec": 0.019835976883769035,
+      "score_calls": 756,
+      "route_score_calls": 1959,
+      "seed": 44,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "alns",
+    "planner": "static",
+    "seed": 44,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        10,
+        25,
+        13,
+        12,
+        5,
+        1,
+        27,
+        21,
+        23
+      ],
+      [
+        6,
+        14,
+        26,
+        3,
+        19,
+        22,
+        28,
+        17,
+        29,
+        15
+      ],
+      [
+        20
+      ],
+      [
+        16,
+        9,
+        7
+      ],
+      [
+        4,
+        30,
+        18,
+        11,
+        24,
+        8,
+        2
+      ]
+    ],
+    "loads": [
+      44,
+      42,
+      6,
+      14,
+      36
+    ],
+    "recorded_cost_sec": 3554.06287554343,
+    "observed_edge_share": 0.23733333333333334,
+    "solver_diagnostics": {
+      "method": "alns",
+      "surrogate_travel_sec": 3206.0018676203563,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 5000,
+      "accepted_moves": 3460,
+      "best_improvements": 19,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.007560404017567635,
+      "search_wall_sec": 3.943324798718095,
+      "score_calls": 65244,
+      "route_score_calls": 237100,
+      "seed": 44,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {
+        "random": [
+          0,
+          0,
+          0.0
+        ],
+        "greedy": [
+          0,
+          0,
+          0.0
+        ],
+        "worst": [
+          0,
+          0,
+          0.0
+        ],
+        "regret2": [
+          0,
+          0,
+          0.0
+        ],
+        "related": [
+          0,
+          0,
+          0.0
+        ]
+      }
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "alns",
+    "planner": "oracle",
+    "seed": 44,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        8,
+        24,
+        11,
+        18,
+        30,
+        4
+      ],
+      [
+        16,
+        3,
+        26,
+        14,
+        6,
+        9,
+        7
+      ],
+      [
+        10,
+        25,
+        13,
+        5,
+        12,
+        1,
+        27,
+        2
+      ],
+      [
+        21,
+        28,
+        22,
+        19,
+        29,
+        17,
+        15,
+        23
+      ],
+      [
+        20
+      ]
+    ],
+    "loads": [
+      29,
+      29,
+      43,
+      35,
+      6
+    ],
+    "recorded_cost_sec": 3504.6618406991474,
+    "observed_edge_share": 0.13924050632911392,
+    "solver_diagnostics": {
+      "method": "alns",
+      "surrogate_travel_sec": 3511.3725295319455,
+      "initial_surrogate_travel_sec": 4932.677739540872,
+      "iterations": 2810,
+      "accepted_moves": 2366,
+      "best_improvements": 16,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.05139098409563303,
+      "search_wall_sec": 5.001447478309274,
+      "score_calls": 35786,
+      "route_score_calls": 85263,
+      "seed": 44,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {
+        "random": [
+          5,
+          5,
+          0.0
+        ],
+        "greedy": [
+          6,
+          5,
+          0.0
+        ],
+        "worst": [
+          3,
+          3,
+          0.0
+        ],
+        "regret2": [
+          4,
+          4,
+          0.0
+        ],
+        "related": [
+          2,
+          1,
+          0.0
+        ]
+      }
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "greedy",
+    "planner": "static",
+    "seed": 45,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        24,
+        11,
+        5,
+        18,
+        2
+      ],
+      [
+        1,
+        27,
+        21,
+        17,
+        29,
+        26,
+        14
+      ],
+      [
+        12,
+        8,
+        20
+      ],
+      [
+        7,
+        16,
+        9,
+        6,
+        3,
+        15,
+        19,
+        22,
+        28,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        4
+      ]
+    ],
+    "loads": [
+      33,
+      28,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4949.077769970463,
+    "observed_edge_share": 0.21550094517958412,
+    "solver_diagnostics": {
+      "method": "greedy",
+      "surrogate_travel_sec": 4600.804348967703,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 0,
+      "accepted_moves": 0,
+      "best_improvements": 0,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.007445799186825752,
+      "search_wall_sec": 0.0,
+      "score_calls": 1,
+      "route_score_calls": 1600,
+      "seed": 45,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "greedy",
+    "planner": "oracle",
+    "seed": 45,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        24,
+        11,
+        5,
+        18,
+        2
+      ],
+      [
+        14,
+        26,
+        3,
+        17,
+        21,
+        27,
+        1
+      ],
+      [
+        8,
+        12,
+        30
+      ],
+      [
+        6,
+        9,
+        7,
+        16,
+        19,
+        22,
+        28,
+        29,
+        15,
+        23
+      ],
+      [
+        20,
+        10,
+        13,
+        25,
+        4
+      ]
+    ],
+    "loads": [
+      30,
+      29,
+      14,
+      44,
+      25
+    ],
+    "recorded_cost_sec": 4965.931997383828,
+    "observed_edge_share": 0.09386281588447654,
+    "solver_diagnostics": {
+      "method": "greedy",
+      "surrogate_travel_sec": 4932.677739540872,
+      "initial_surrogate_travel_sec": 4932.677739540872,
+      "iterations": 0,
+      "accepted_moves": 0,
+      "best_improvements": 0,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.051284871995449066,
+      "search_wall_sec": 0.0,
+      "score_calls": 1,
+      "route_score_calls": 1617,
+      "seed": 45,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "sa",
+    "planner": "static",
+    "seed": 45,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        10,
+        25,
+        13,
+        12,
+        5,
+        1,
+        27,
+        2
+      ],
+      [
+        21,
+        28,
+        22,
+        19,
+        29,
+        17,
+        15,
+        23
+      ],
+      [
+        7
+      ],
+      [
+        4,
+        30,
+        18,
+        11,
+        24,
+        8,
+        20
+      ],
+      [
+        16,
+        9,
+        6,
+        14,
+        26,
+        3
+      ]
+    ],
+    "loads": [
+      43,
+      35,
+      4,
+      35,
+      25
+    ],
+    "recorded_cost_sec": 3515.2208853435004,
+    "observed_edge_share": 0.2268041237113402,
+    "solver_diagnostics": {
+      "method": "sa",
+      "surrogate_travel_sec": 3214.3666278721234,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 5000,
+      "accepted_moves": 1075,
+      "best_improvements": 27,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.007407302036881447,
+      "search_wall_sec": 0.10695008467882872,
+      "score_calls": 5001,
+      "route_score_calls": 5518,
+      "seed": 45,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "sa",
+    "planner": "oracle",
+    "seed": 45,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        23
+      ],
+      [
+        4,
+        30,
+        18,
+        8,
+        25,
+        2
+      ],
+      [
+        20,
+        21,
+        28,
+        22,
+        19,
+        29,
+        17,
+        15
+      ],
+      [
+        16,
+        3,
+        26,
+        14,
+        6,
+        9,
+        7
+      ],
+      [
+        10,
+        27,
+        1,
+        13,
+        12,
+        5,
+        11,
+        24
+      ]
+    ],
+    "loads": [
+      6,
+      30,
+      35,
+      29,
+      42
+    ],
+    "recorded_cost_sec": 3559.930841190042,
+    "observed_edge_share": 0.17493472584856398,
+    "solver_diagnostics": {
+      "method": "sa",
+      "surrogate_travel_sec": 3563.227114191104,
+      "initial_surrogate_travel_sec": 4932.677739540872,
+      "iterations": 5000,
+      "accepted_moves": 1022,
+      "best_improvements": 37,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.055027286522090435,
+      "search_wall_sec": 0.2670754278078675,
+      "score_calls": 5001,
+      "route_score_calls": 5879,
+      "seed": 45,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "vnd",
+    "planner": "static",
+    "seed": 45,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        18,
+        11,
+        24,
+        2
+      ],
+      [
+        14,
+        26,
+        17,
+        29,
+        21,
+        27,
+        1,
+        5
+      ],
+      [
+        12,
+        8,
+        20
+      ],
+      [
+        7,
+        16,
+        9,
+        6,
+        3,
+        19,
+        22,
+        28,
+        15,
+        23
+      ],
+      [
+        10,
+        13,
+        25,
+        4
+      ]
+    ],
+    "loads": [
+      28,
+      33,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4775.376255273703,
+    "observed_edge_share": 0.174573055028463,
+    "solver_diagnostics": {
+      "method": "vnd",
+      "surrogate_travel_sec": 4392.975466315151,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 9,
+      "accepted_moves": 8,
+      "best_improvements": 8,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.0075086746364831924,
+      "search_wall_sec": 0.005133002996444702,
+      "score_calls": 712,
+      "route_score_calls": 1943,
+      "seed": 45,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "vnd",
+    "planner": "oracle",
+    "seed": 45,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        2
+      ],
+      [
+        14,
+        26,
+        3,
+        17,
+        21,
+        27,
+        1,
+        5,
+        11,
+        24
+      ],
+      [
+        8,
+        12,
+        18,
+        30
+      ],
+      [
+        6,
+        9,
+        7,
+        16,
+        19,
+        22,
+        28,
+        29,
+        15,
+        23
+      ],
+      [
+        20,
+        10,
+        13,
+        25,
+        4
+      ]
+    ],
+    "loads": [
+      7,
+      45,
+      21,
+      44,
+      25
+    ],
+    "recorded_cost_sec": 4664.635819094488,
+    "observed_edge_share": 0.10857142857142857,
+    "solver_diagnostics": {
+      "method": "vnd",
+      "surrogate_travel_sec": 4655.9214659152785,
+      "initial_surrogate_travel_sec": 4932.677739540872,
+      "iterations": 7,
+      "accepted_moves": 6,
+      "best_improvements": 6,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.050926036201417446,
+      "search_wall_sec": 0.01959571149200201,
+      "score_calls": 756,
+      "route_score_calls": 1959,
+      "seed": 45,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "alns",
+    "planner": "static",
+    "seed": 45,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        4,
+        30,
+        18,
+        11,
+        24,
+        8,
+        2
+      ],
+      [
+        6,
+        14,
+        26,
+        3,
+        19,
+        22,
+        28,
+        17,
+        29,
+        15
+      ],
+      [
+        10,
+        25,
+        13,
+        12,
+        5,
+        1,
+        27,
+        21,
+        23
+      ],
+      [
+        16,
+        9,
+        7
+      ],
+      [
+        20
+      ]
+    ],
+    "loads": [
+      36,
+      42,
+      44,
+      14,
+      6
+    ],
+    "recorded_cost_sec": 3554.06287554343,
+    "observed_edge_share": 0.23733333333333334,
+    "solver_diagnostics": {
+      "method": "alns",
+      "surrogate_travel_sec": 3206.0018676203563,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 5000,
+      "accepted_moves": 3514,
+      "best_improvements": 21,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.007510979659855366,
+      "search_wall_sec": 3.782368210144341,
+      "score_calls": 64830,
+      "route_score_calls": 179475,
+      "seed": 45,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {
+        "worst": [
+          0,
+          0,
+          0.0
+        ],
+        "regret2": [
+          0,
+          0,
+          0.0
+        ],
+        "related": [
+          0,
+          0,
+          0.0
+        ],
+        "greedy": [
+          0,
+          0,
+          0.0
+        ],
+        "random": [
+          0,
+          0,
+          0.0
+        ]
+      }
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "alns",
+    "planner": "oracle",
+    "seed": 45,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        8,
+        24,
+        11,
+        18,
+        30
+      ],
+      [
+        20,
+        21,
+        28,
+        22,
+        19,
+        29,
+        17,
+        15,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        5,
+        12,
+        1,
+        27,
+        2
+      ],
+      [
+        16,
+        3,
+        26,
+        14,
+        6,
+        9,
+        7
+      ],
+      [
+        4
+      ]
+    ],
+    "loads": [
+      25,
+      41,
+      43,
+      29,
+      4
+    ],
+    "recorded_cost_sec": 3508.202668245707,
+    "observed_edge_share": 0.11886304909560723,
+    "solver_diagnostics": {
+      "method": "alns",
+      "surrogate_travel_sec": 3519.3610159626114,
+      "initial_surrogate_travel_sec": 4932.677739540872,
+      "iterations": 1914,
+      "accepted_moves": 1594,
+      "best_improvements": 16,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.05111046601086855,
+      "search_wall_sec": 5.000037228688598,
+      "score_calls": 23939,
+      "route_score_calls": 95265,
+      "seed": 45,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {
+        "worst": [
+          3,
+          3,
+          0.0
+        ],
+        "regret2": [
+          9,
+          6,
+          0.0
+        ],
+        "related": [
+          6,
+          3,
+          0.0
+        ],
+        "random": [
+          5,
+          5,
+          0.0
+        ],
+        "greedy": [
+          5,
+          5,
+          0.0
+        ]
+      }
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "greedy",
+    "planner": "static",
+    "seed": 46,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        24,
+        11,
+        5,
+        18,
+        2
+      ],
+      [
+        1,
+        27,
+        21,
+        17,
+        29,
+        26,
+        14
+      ],
+      [
+        12,
+        8,
+        20
+      ],
+      [
+        7,
+        16,
+        9,
+        6,
+        3,
+        15,
+        19,
+        22,
+        28,
+        23
+      ],
+      [
+        10,
+        25,
+        13,
+        4
+      ]
+    ],
+    "loads": [
+      33,
+      28,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4949.077769970463,
+    "observed_edge_share": 0.21550094517958412,
+    "solver_diagnostics": {
+      "method": "greedy",
+      "surrogate_travel_sec": 4600.804348967703,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 0,
+      "accepted_moves": 0,
+      "best_improvements": 0,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.007502425462007523,
+      "search_wall_sec": 0.0,
+      "score_calls": 1,
+      "route_score_calls": 1600,
+      "seed": 46,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "greedy",
+    "planner": "oracle",
+    "seed": 46,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        24,
+        11,
+        5,
+        18,
+        2
+      ],
+      [
+        14,
+        26,
+        3,
+        17,
+        21,
+        27,
+        1
+      ],
+      [
+        8,
+        12,
+        30
+      ],
+      [
+        6,
+        9,
+        7,
+        16,
+        19,
+        22,
+        28,
+        29,
+        15,
+        23
+      ],
+      [
+        20,
+        10,
+        13,
+        25,
+        4
+      ]
+    ],
+    "loads": [
+      30,
+      29,
+      14,
+      44,
+      25
+    ],
+    "recorded_cost_sec": 4965.931997383828,
+    "observed_edge_share": 0.09386281588447654,
+    "solver_diagnostics": {
+      "method": "greedy",
+      "surrogate_travel_sec": 4932.677739540872,
+      "initial_surrogate_travel_sec": 4932.677739540872,
+      "iterations": 0,
+      "accepted_moves": 0,
+      "best_improvements": 0,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.051577502861618996,
+      "search_wall_sec": 0.0,
+      "score_calls": 1,
+      "route_score_calls": 1617,
+      "seed": 46,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "sa",
+    "planner": "static",
+    "seed": 46,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        10,
+        25,
+        13,
+        12,
+        5,
+        1,
+        27,
+        2
+      ],
+      [
+        7
+      ],
+      [
+        4,
+        30,
+        18,
+        11,
+        24,
+        8,
+        20
+      ],
+      [
+        9,
+        6,
+        14,
+        26,
+        3,
+        23
+      ],
+      [
+        16,
+        15,
+        29,
+        17,
+        19,
+        22,
+        28,
+        21
+      ]
+    ],
+    "loads": [
+      43,
+      4,
+      35,
+      25,
+      35
+    ],
+    "recorded_cost_sec": 3573.326720346522,
+    "observed_edge_share": 0.20588235294117646,
+    "solver_diagnostics": {
+      "method": "sa",
+      "surrogate_travel_sec": 3241.04749967395,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 5000,
+      "accepted_moves": 1087,
+      "best_improvements": 43,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.0075762467458844185,
+      "search_wall_sec": 0.10837922804057598,
+      "score_calls": 5001,
+      "route_score_calls": 6019,
+      "seed": 46,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "sa",
+    "planner": "oracle",
+    "seed": 46,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        20,
+        21,
+        28,
+        22,
+        19,
+        29,
+        17,
+        15,
+        23
+      ],
+      [
+        10,
+        25,
+        8,
+        24,
+        30,
+        4
+      ],
+      [
+        7
+      ],
+      [
+        16,
+        3,
+        26,
+        14,
+        6,
+        9
+      ],
+      [
+        27,
+        1,
+        13,
+        12,
+        5,
+        11,
+        18,
+        2
+      ]
+    ],
+    "loads": [
+      41,
+      29,
+      4,
+      25,
+      43
+    ],
+    "recorded_cost_sec": 3469.0684313016245,
+    "observed_edge_share": 0.16052631578947368,
+    "solver_diagnostics": {
+      "method": "sa",
+      "surrogate_travel_sec": 3485.153150200553,
+      "initial_surrogate_travel_sec": 4932.677739540872,
+      "iterations": 5000,
+      "accepted_moves": 1254,
+      "best_improvements": 42,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.05116557888686657,
+      "search_wall_sec": 0.24785525538027287,
+      "score_calls": 5001,
+      "route_score_calls": 5351,
+      "seed": 46,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "vnd",
+    "planner": "static",
+    "seed": 46,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        30,
+        18,
+        11,
+        24,
+        2
+      ],
+      [
+        14,
+        26,
+        17,
+        29,
+        21,
+        27,
+        1,
+        5
+      ],
+      [
+        12,
+        8,
+        20
+      ],
+      [
+        7,
+        16,
+        9,
+        6,
+        3,
+        19,
+        22,
+        28,
+        15,
+        23
+      ],
+      [
+        10,
+        13,
+        25,
+        4
+      ]
+    ],
+    "loads": [
+      28,
+      33,
+      17,
+      45,
+      19
+    ],
+    "recorded_cost_sec": 4775.376255273703,
+    "observed_edge_share": 0.174573055028463,
+    "solver_diagnostics": {
+      "method": "vnd",
+      "surrogate_travel_sec": 4392.975466315151,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 9,
+      "accepted_moves": 8,
+      "best_improvements": 8,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.0076093971729278564,
+      "search_wall_sec": 0.005158412270247936,
+      "score_calls": 712,
+      "route_score_calls": 1943,
+      "seed": 46,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "vnd",
+    "planner": "oracle",
+    "seed": 46,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        2
+      ],
+      [
+        14,
+        26,
+        3,
+        17,
+        21,
+        27,
+        1,
+        5,
+        11,
+        24
+      ],
+      [
+        8,
+        12,
+        18,
+        30
+      ],
+      [
+        6,
+        9,
+        7,
+        16,
+        19,
+        22,
+        28,
+        29,
+        15,
+        23
+      ],
+      [
+        20,
+        10,
+        13,
+        25,
+        4
+      ]
+    ],
+    "loads": [
+      7,
+      45,
+      21,
+      44,
+      25
+    ],
+    "recorded_cost_sec": 4664.635819094488,
+    "observed_edge_share": 0.10857142857142857,
+    "solver_diagnostics": {
+      "method": "vnd",
+      "surrogate_travel_sec": 4655.9214659152785,
+      "initial_surrogate_travel_sec": 4932.677739540872,
+      "iterations": 7,
+      "accepted_moves": 6,
+      "best_improvements": 6,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.051351942121982574,
+      "search_wall_sec": 0.019788475707173347,
+      "score_calls": 756,
+      "route_score_calls": 1959,
+      "seed": 46,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {}
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "alns",
+    "planner": "static",
+    "seed": 46,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        4,
+        30,
+        18,
+        11,
+        24,
+        8,
+        2
+      ],
+      [
+        6,
+        14,
+        26,
+        3,
+        19,
+        22,
+        28,
+        17,
+        29,
+        15
+      ],
+      [
+        10,
+        25,
+        13,
+        12,
+        5,
+        1,
+        27,
+        21,
+        23
+      ],
+      [
+        16,
+        9,
+        7
+      ],
+      [
+        20
+      ]
+    ],
+    "loads": [
+      36,
+      42,
+      44,
+      14,
+      6
+    ],
+    "recorded_cost_sec": 3554.06287554343,
+    "observed_edge_share": 0.23733333333333334,
+    "solver_diagnostics": {
+      "method": "alns",
+      "surrogate_travel_sec": 3206.0018676203563,
+      "initial_surrogate_travel_sec": 4600.804348967703,
+      "iterations": 5000,
+      "accepted_moves": 3490,
+      "best_improvements": 20,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.009331648238003254,
+      "search_wall_sec": 3.876382782123983,
+      "score_calls": 65027,
+      "route_score_calls": 162213,
+      "seed": 46,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {
+        "related": [
+          0,
+          0,
+          0.0
+        ],
+        "greedy": [
+          0,
+          0,
+          0.0
+        ],
+        "regret2": [
+          0,
+          0,
+          0.0
+        ],
+        "random": [
+          0,
+          0,
+          0.0
+        ],
+        "worst": [
+          0,
+          0,
+          0.0
+        ]
+      }
+    },
+    "route_details": []
+  },
+  {
+    "task_id": "task_0000",
+    "scenario_id": "2025-06-06_0800",
+    "departure_local": "2025-06-06 08:00:00",
+    "solver": "alns",
+    "planner": "oracle",
+    "seed": 46,
+    "vehicle_rule": "exactly",
+    "routes": [
+      [
+        10,
+        25,
+        13,
+        5,
+        12,
+        1,
+        27,
+        2
+      ],
+      [
+        16,
+        3,
+        26,
+        14,
+        6,
+        9,
+        7
+      ],
+      [
+        4
+      ],
+      [
+        20,
+        21,
+        28,
+        22,
+        19,
+        29,
+        17,
+        15,
+        23
+      ],
+      [
+        8,
+        24,
+        11,
+        18,
+        30
+      ]
+    ],
+    "loads": [
+      43,
+      29,
+      4,
+      41,
+      25
+    ],
+    "recorded_cost_sec": 3508.202668245707,
+    "observed_edge_share": 0.11886304909560723,
+    "solver_diagnostics": {
+      "method": "alns",
+      "surrogate_travel_sec": 3519.3610159626114,
+      "initial_surrogate_travel_sec": 4932.677739540872,
+      "iterations": 1513,
+      "accepted_moves": 1240,
+      "best_improvements": 22,
+      "failed_repairs": 0,
+      "construction_wall_sec": 0.05100760888308287,
+      "search_wall_sec": 5.002146075479686,
+      "score_calls": 18491,
+      "route_score_calls": 100305,
+      "seed": 46,
+      "greedy_meta": {
+        "fallback_seed_routes": false,
+        "greedy_insertion_steps": 25
+      },
+      "operators_stats": {
+        "related": [
+          3,
+          2,
+          0.0
+        ],
+        "greedy": [
+          8,
+          6,
+          0.0
+        ],
+        "regret2": [
+          5,
+          5,
+          0.0
+        ],
+        "random": [
+          8,
+          7,
+          0.0
+        ],
+        "worst": [
+          2,
+          2,
+          0.0
+        ]
+      }
+    },
+    "route_details": []
+  }
+]

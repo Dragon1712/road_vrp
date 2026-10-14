@@ -1,0 +1,10 @@
+{
+  "sample_count": 100,
+  "cache_hit": true,
+  "mean_abs_error_sec": 1.817743823234341,
+  "p95_abs_error_sec": 8.89922360717319,
+  "max_abs_error_sec": 24.038871443248354,
+  "mean_relative_error": 0.007969467119419586,
+  "p95_relative_error": 0.035818125129803674,
+  "diagnostic": "Use smaller --od-step-minutes if errors are large; final metrics always use exact road-leg TDSP."
+}

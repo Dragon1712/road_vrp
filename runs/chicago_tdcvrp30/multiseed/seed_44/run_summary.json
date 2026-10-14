@@ -1,0 +1,24 @@
+{
+  "cost_dir": "datasets/processed/chicago/dynamic_costs",
+  "task_dir": "datasets/processed/chicago/tdcvrp30/tasks",
+  "evaluated_tasks": 1,
+  "records": 4,
+  "parameters": {
+    "command": "solve",
+    "cost_dir": "datasets/processed/chicago/dynamic_costs",
+    "task_dir": "datasets/processed/chicago/tdcvrp30/tasks",
+    "output_dir": "runs/chicago_tdcvrp30/multiseed/seed_44",
+    "cache_dir": "runs/chicago_tdcvrp30/od_cache",
+    "max_tasks": 1,
+    "max_scenarios": 2,
+    "od_hours": 4.0,
+    "od_step_minutes": 20.0,
+    "iterations": 5000,
+    "restarts": 5,
+    "seed": 44,
+    "rebuild_cache": false,
+    "action": "<function do_solve at 0x7b06dd5b7520>"
+  },
+  "interpretation": "oracle sees historical future traffic; static sequence evaluated with EX-POST TD shortest road legs, so comparison isolates multi-vehicle assignment+visit order. Neither is a deployable prediction-based policy.",
+  "limitations": "Search uses OD grid interpolation; final cost recomputed with exact road graph TDSP. No TW; all vehicles required and capacities enforced."
+}
