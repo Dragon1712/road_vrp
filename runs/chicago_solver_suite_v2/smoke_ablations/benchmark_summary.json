@@ -1,0 +1,45 @@
+{
+  "records": 24,
+  "tasks": 1,
+  "methods": [
+    "alns",
+    "alns_no_related",
+    "alns_no_worst",
+    "alns_greedy_repair",
+    "alns_uniform",
+    "alns_no_local"
+  ],
+  "planners": [
+    "oracle"
+  ],
+  "seeds": [
+    42,
+    43
+  ],
+  "vehicle_rule": "exactly",
+  "budget_rule": "Each method same wall clock search cap and proposal cap; actual work and OD preprocessing reported separately. Greedy stops after construction.",
+  "objective": "Total fleet ROAD TRAVEL time (excluding service, not minmax/makespan)",
+  "ex_post": "Every solution evaluated under its scenario with EXACT road-edge time-dependent Dijkstra; the static planner ALSO gets time-dependent per-leg road rerouting.",
+  "hindsight": "Oracle planner sees future historical traffic costs and is NOT a deployable traffic forecast.",
+  "limit": "Limited Chicago observations + OSM static fallback. Stronger teacher still not mathematically optimal.",
+  "config": {
+    "cost_dir": "datasets/processed/chicago/dynamic_costs",
+    "task_dir": "datasets/processed/chicago/tdcvrp30/tasks_10",
+    "output_dir": "runs/chicago_solver_suite_v2/smoke_ablations",
+    "methods": "alns,alns_no_related,alns_no_worst,alns_greedy_repair,alns_uniform,alns_no_local",
+    "planners": "oracle",
+    "seeds": "42,43",
+    "max_tasks": "1",
+    "max_scenarios": "2",
+    "vehicle_rule": "exactly",
+    "od_step_min": "20",
+    "od_hours": "4.0",
+    "od_cache_dir": "runs/chicago_solver_suite_v2/od_cache",
+    "rebuild_od_cache": "False",
+    "max_iterations": "500",
+    "wall_sec": "2.0",
+    "detailed_legs": "False",
+    "resume": "False",
+    "checkpoint_every": "5"
+  }
+}

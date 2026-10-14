@@ -1,0 +1,103 @@
+{
+  "detailed_legs": false,
+  "input_files": [
+    [
+      "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/dynamic_costs/edge_costs.npz",
+      4920436,
+      1791962188263701207
+    ],
+    [
+      "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/dynamic_costs/edge_index.csv",
+      602145,
+      1791962187875699870
+    ],
+    [
+      "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/dynamic_costs/time_index.csv",
+      20171,
+      1791962187876699873
+    ],
+    [
+      "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/tdcvrp30/tasks_10/task_0000.json",
+      3543,
+      1791978009921402335
+    ],
+    [
+      "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/tdcvrp30/tasks_10/task_0001.json",
+      3543,
+      1791978009922402314
+    ],
+    [
+      "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/tdcvrp30/tasks_10/task_0002.json",
+      3548,
+      1791978009923402294
+    ],
+    [
+      "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/tdcvrp30/tasks_10/task_0003.json",
+      3539,
+      1791978009924402273
+    ],
+    [
+      "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/tdcvrp30/tasks_10/task_0004.json",
+      3550,
+      1791978009925402253
+    ],
+    [
+      "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/tdcvrp30/tasks_10/task_0005.json",
+      3552,
+      1791978009926402232
+    ],
+    [
+      "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/tdcvrp30/tasks_10/task_0006.json",
+      3542,
+      1791978009927402212
+    ],
+    [
+      "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/tdcvrp30/tasks_10/task_0007.json",
+      3549,
+      1791978009928402191
+    ],
+    [
+      "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/tdcvrp30/tasks_10/task_0008.json",
+      3552,
+      1791978009929402171
+    ],
+    [
+      "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/tdcvrp30/tasks_10/task_0009.json",
+      3546,
+      1791978009930402150
+    ]
+  ],
+  "max_iterations": 5000,
+  "max_scenarios": 6,
+  "methods": [
+    "greedy",
+    "sa",
+    "vnd",
+    "alns"
+  ],
+  "od_hours": 4.0,
+  "od_step_min": 20,
+  "planners": [
+    "static",
+    "oracle"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "task_files": [
+    "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/tdcvrp30/tasks_10/task_0000.json",
+    "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/tdcvrp30/tasks_10/task_0001.json",
+    "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/tdcvrp30/tasks_10/task_0002.json",
+    "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/tdcvrp30/tasks_10/task_0003.json",
+    "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/tdcvrp30/tasks_10/task_0004.json",
+    "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/tdcvrp30/tasks_10/task_0005.json",
+    "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/tdcvrp30/tasks_10/task_0006.json",
+    "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/tdcvrp30/tasks_10/task_0007.json",
+    "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/tdcvrp30/tasks_10/task_0008.json",
+    "/home/xys/code/WZL/road_vrp/datasets/processed/chicago/tdcvrp30/tasks_10/task_0009.json"
+  ],
+  "vehicle_rule": "exactly",
+  "wall_sec": 5.0
+}
