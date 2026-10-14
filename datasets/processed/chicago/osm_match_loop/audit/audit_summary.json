@@ -1,0 +1,25 @@
+{
+  "all_rows": 169,
+  "status_counts": {
+    "accepted": 148,
+    "poor_match_review": 17,
+    "no_close_endpoint": 4
+  },
+  "within_candidate_path_scope": 165,
+  "accepted": 148,
+  "accepted_rate_within_candidate_path_scope": 0.897,
+  "accepted_high_coverage": 84,
+  "within_candidate_scope_high_coverage": 94,
+  "accepted_rate_within_scope_high_coverage": 0.8936,
+  "strict_candidate_matches": 131,
+  "strict_high_coverage_matches": 76,
+  "mapping_rows": 1022,
+  "unique_directed_osm_edges": 1012,
+  "conflicting_osm_edges": 10,
+  "notes": [
+    "Accepted is preliminary, not geospatial ground truth.",
+    "no_close_endpoint typically means out-of-area or endpoint snap failure; do not use it in local-area denominator without a geographic scope definition.",
+    "Strict matches are review candidates based on stronger thresholds, not verified correct matches.",
+    "A monitored segment can span multiple OSM edges; collision edges require explicit speed assignment rules."
+  ]
+}

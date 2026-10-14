@@ -1,0 +1,13 @@
+{
+  "total_strict_candidates": 131,
+  "strict_at_or_above_min_coverage": 76,
+  "minimum_valid_observation_ratio": 0.5,
+  "segments_conflicting_in_full_accepted_mapping": 15,
+  "eligible_segments_excluded_due_to_any_conflict_or_quality": 5,
+  "selected_monitor_segments": 71,
+  "selected_unique_osm_directed_edges": 507,
+  "remaining_osm_edge_collisions": 0,
+  "path_fraction_sum_min": 0.9999999999999999,
+  "path_fraction_sum_max": 1.0000000000000002,
+  "WARNING": "Geometrically strict is not independently verified. Inspect map alignment and road direction; do not treat this as ground truth."
+}

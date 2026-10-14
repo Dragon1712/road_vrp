@@ -1,0 +1,44 @@
+{
+  "files": [
+    "traffic_2025-06-02.csv",
+    "traffic_2025-06-03.csv",
+    "traffic_2025-06-04.csv",
+    "traffic_2025-06-05.csv",
+    "traffic_2025-06-06.csv",
+    "traffic_2025-06-07.csv",
+    "traffic_2025-06-08.csv"
+  ],
+  "original_rows": 1015590,
+  "kept_after_cleanup": 1015590,
+  "duplicate_segment_slots_removed": 0,
+  "segments": 1047,
+  "time_slots": 1008,
+  "traffic_tensor_shape": [
+    1008,
+    1047
+  ],
+  "valid_observations": 518873,
+  "coverage_of_full_segment_time_grid": 0.49165,
+  "invalid_speed_rows": 496717,
+  "length_unit_input": "mile",
+  "speed_unit_input": "mph",
+  "derived_speed_unit": "km/h",
+  "derived_travel_time_unit": "seconds",
+  "timezone_handling": "source local-like naive TIME retained; verify timezone with provider; no UTC conversion applied",
+  "static_field_changes_by_segment": {
+    "direction": 0,
+    "street": 0,
+    "length": 0,
+    "start_latitude": 0,
+    "start_longitude": 0,
+    "end_latitude": 0,
+    "end_longitude": 0
+  },
+  "notes": [
+    "Missing (including -1 mph) speeds are NaN; never replace with zero.",
+    "The 10-minute grid is a preprocessing assumption based on source nominal frequency.",
+    "Road segments here are monitored corridors, NOT a complete connected OSM graph.",
+    "No training/test split, imputation, OSM match, or VRP solving has occurred.",
+    "Record segment id order by segment_index.csv for any later tensors."
+  ]
+}

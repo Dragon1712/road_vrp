@@ -1,0 +1,27 @@
+{
+  "osm_nodes": 2265,
+  "osm_directed_edges": 5503,
+  "unique_monitored_corridors": 71,
+  "candidate_mapped_directed_edges": 507,
+  "fraction_graph_edges_candidate_mapped": 0.09213156460112666,
+  "time_slots": 1008,
+  "step_minutes": 10.0,
+  "observed_mapped_edge_cells": 355027,
+  "fraction_observed_within_mapped_edge_grid": 0.6946929495006418,
+  "fraction_observed_within_entire_graph_grid": 0.0640031483548656,
+  "time_slots_no_mapped_observations": 38,
+  "fifo_grid_values_adjusted": 0,
+  "fifo_max_added_seconds": 0.0,
+  "cost_sources": {
+    "chicago_observed_mask_true": "Chicago measured monitoring corridor travel time, allocated to candidate OSM path",
+    "mapped_but_mask_false": "OSM static estimated fallback; NOT observed",
+    "unmapped_edges": "OSM static estimated fallback; NOT observed"
+  },
+  "limits": [
+    "Geometric matching is a candidate; validate direction and street shape against a map.",
+    "Both dynamic tensors contain EX-POST historical labels; not usable as known future traffic in deployment.",
+    "raw sampled travel time may violate FIFO; use fifo tensor with linear arrival interpolation for TDSP.",
+    "OSM static speeds are assumptions/reference attributes, not verified traffic speeds.",
+    "Source time kept local-like naive; verify clock interpretation."
+  ]
+}

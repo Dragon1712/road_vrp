@@ -1,0 +1,232 @@
+{
+  "task_id": "task_0003",
+  "kind": "SYNTHETIC orders on observed Chicago roads",
+  "depot_node": "736017197",
+  "customers": [
+    {
+      "id": 1,
+      "node": "256633628",
+      "demand": 4
+    },
+    {
+      "id": 2,
+      "node": "27440565",
+      "demand": 7
+    },
+    {
+      "id": 3,
+      "node": "11484243291",
+      "demand": 2
+    },
+    {
+      "id": 4,
+      "node": "1034227186",
+      "demand": 6
+    },
+    {
+      "id": 5,
+      "node": "261239989",
+      "demand": 5
+    },
+    {
+      "id": 6,
+      "node": "262183798",
+      "demand": 4
+    },
+    {
+      "id": 7,
+      "node": "704695547",
+      "demand": 3
+    },
+    {
+      "id": 8,
+      "node": "261184868",
+      "demand": 3
+    },
+    {
+      "id": 9,
+      "node": "262072463",
+      "demand": 3
+    },
+    {
+      "id": 10,
+      "node": "263984855",
+      "demand": 2
+    },
+    {
+      "id": 11,
+      "node": "1309446375",
+      "demand": 5
+    },
+    {
+      "id": 12,
+      "node": "619030981",
+      "demand": 5
+    },
+    {
+      "id": 13,
+      "node": "930285102",
+      "demand": 4
+    },
+    {
+      "id": 14,
+      "node": "9169043192",
+      "demand": 7
+    },
+    {
+      "id": 15,
+      "node": "12242446381",
+      "demand": 4
+    },
+    {
+      "id": 16,
+      "node": "261214639",
+      "demand": 2
+    },
+    {
+      "id": 17,
+      "node": "1324295738",
+      "demand": 2
+    },
+    {
+      "id": 18,
+      "node": "11940351897",
+      "demand": 4
+    },
+    {
+      "id": 19,
+      "node": "1386043169",
+      "demand": 3
+    },
+    {
+      "id": 20,
+      "node": "261214841",
+      "demand": 7
+    },
+    {
+      "id": 21,
+      "node": "1034118802",
+      "demand": 7
+    },
+    {
+      "id": 22,
+      "node": "35313375",
+      "demand": 7
+    },
+    {
+      "id": 23,
+      "node": "739119091",
+      "demand": 5
+    },
+    {
+      "id": 24,
+      "node": "1309434643",
+      "demand": 4
+    },
+    {
+      "id": 25,
+      "node": "270407982",
+      "demand": 7
+    },
+    {
+      "id": 26,
+      "node": "256613293",
+      "demand": 5
+    },
+    {
+      "id": 27,
+      "node": "269446285",
+      "demand": 7
+    },
+    {
+      "id": 28,
+      "node": "261148966",
+      "demand": 3
+    },
+    {
+      "id": 29,
+      "node": "261177625",
+      "demand": 3
+    },
+    {
+      "id": 30,
+      "node": "739118948",
+      "demand": 2
+    }
+  ],
+  "vehicles": 5,
+  "capacity": 45,
+  "service_seconds": 120,
+  "seed_routes": [
+    [
+      20,
+      6,
+      5,
+      14,
+      23,
+      30
+    ],
+    [
+      24,
+      10,
+      22,
+      19,
+      18,
+      15
+    ],
+    [
+      12,
+      26,
+      8,
+      3,
+      21,
+      7
+    ],
+    [
+      9,
+      11,
+      16,
+      17,
+      13,
+      1
+    ],
+    [
+      25,
+      4,
+      27,
+      28,
+      2,
+      29
+    ]
+  ],
+  "require_all_vehicles": true,
+  "scenarios": [
+    {
+      "scenario_id": "2025-06-05_0800",
+      "departure_local": "2025-06-05 08:00:00"
+    },
+    {
+      "scenario_id": "2025-06-06_0800",
+      "departure_local": "2025-06-06 08:00:00"
+    },
+    {
+      "scenario_id": "2025-06-03_0800",
+      "departure_local": "2025-06-03 08:00:00"
+    },
+    {
+      "scenario_id": "2025-06-04_0800",
+      "departure_local": "2025-06-04 08:00:00"
+    },
+    {
+      "scenario_id": "2025-06-07_0800",
+      "departure_local": "2025-06-07 08:00:00"
+    },
+    {
+      "scenario_id": "2025-06-08_0800",
+      "departure_local": "2025-06-08 08:00:00"
+    }
+  ],
+  "seed": 2029,
+  "sampling_strategy": "mixed",
+  "matched_corridor_radius_m": 600.0
+}
