@@ -1,0 +1,2 @@
+solver,reference,num_tasks,paired_runs,mean_gain_pct,mean_gain_sec,task_boot_ci_lower_pct,task_boot_ci_upper_pct,tasks_with_mean_positive,overall_paired_win_rate
+upstream_alns,alns,10,180,0.2009168743782283,8.538134902457848,-0.4823684872100963,0.7466153784903325,8,0.4388888888888889

@@ -1,0 +1,80 @@
+{
+  "num_distinct_tasks": 10,
+  "min_scenarios_per_task": 6,
+  "all_seed_routes_capacity_feasible": true,
+  "tasks": [
+    {
+      "task_id": "task_0000",
+      "customer_count": 30,
+      "scenario_count": 6,
+      "demand_sum": 141,
+      "signature_sha256": "226c916552e5b92aa9bb37a183b40755427c0d45de0f57bb223e796bebb08673"
+    },
+    {
+      "task_id": "task_0001",
+      "customer_count": 30,
+      "scenario_count": 6,
+      "demand_sum": 138,
+      "signature_sha256": "98db82808cbc0a17aa30c0de0ad3b6d199eec8415a4d620147fbef18d00f887a"
+    },
+    {
+      "task_id": "task_0002",
+      "customer_count": 30,
+      "scenario_count": 6,
+      "demand_sum": 114,
+      "signature_sha256": "d173e0b03a0e5eda41a8ac3b32b6ad4da3fca62924920a0efa0fae1869dcfe58"
+    },
+    {
+      "task_id": "task_0003",
+      "customer_count": 30,
+      "scenario_count": 6,
+      "demand_sum": 149,
+      "signature_sha256": "29683a146ca7e3d7289b6e65c82e824f7acbc2f8a1484330e3f452e5b6ae4b7d"
+    },
+    {
+      "task_id": "task_0004",
+      "customer_count": 30,
+      "scenario_count": 6,
+      "demand_sum": 135,
+      "signature_sha256": "d1305db65a46147c91eec688fa9d4bcbccf5d61692b22e19d87b224f4bf1b5ce"
+    },
+    {
+      "task_id": "task_0005",
+      "customer_count": 30,
+      "scenario_count": 6,
+      "demand_sum": 128,
+      "signature_sha256": "a212a1b4aaece61dc957b7275ff6d8b2b154a29bcb14d0aa87eab50205cf4e4f"
+    },
+    {
+      "task_id": "task_0006",
+      "customer_count": 30,
+      "scenario_count": 6,
+      "demand_sum": 114,
+      "signature_sha256": "bca0db24dde62c648e01df4daee6cec8fe0f07d9759f605fb9e5af8c0cc21aec"
+    },
+    {
+      "task_id": "task_0007",
+      "customer_count": 30,
+      "scenario_count": 6,
+      "demand_sum": 128,
+      "signature_sha256": "bb0742562fb0bbe087aa4a1e8aa1dcf21498a148aca480f596564c3afe77c669"
+    },
+    {
+      "task_id": "task_0008",
+      "customer_count": 30,
+      "scenario_count": 6,
+      "demand_sum": 129,
+      "signature_sha256": "3a2f836200da22c1aa48f7780d5d508056a02f24718e944d1e75c66dd57c66be"
+    },
+    {
+      "task_id": "task_0009",
+      "customer_count": 30,
+      "scenario_count": 6,
+      "demand_sum": 126,
+      "signature_sha256": "cbb8d531cfd71c5f5e5fa7bc523c4208049e0e9ecbee7a102db3b2d773c2dc35"
+    }
+  ],
+  "sampling_strategy": "mixed",
+  "root_seed": 20261014,
+  "warning": "Customer orders/demand are synthetic, not real Chicago logistics records."
+}

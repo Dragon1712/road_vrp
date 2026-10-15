@@ -1,0 +1,18 @@
+{
+  "tasks": 10,
+  "customers_each": 30,
+  "vehicles_each": 5,
+  "scenarios_per_task": 6,
+  "task_files": [
+    "task_0000.json",
+    "task_0001.json",
+    "task_0002.json",
+    "task_0003.json",
+    "task_0004.json",
+    "task_0005.json",
+    "task_0006.json",
+    "task_0007.json",
+    "task_0008.json",
+    "task_0009.json"
+  ]
+}
