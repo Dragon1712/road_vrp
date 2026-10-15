@@ -1,0 +1,8 @@
+solver,task_id,mean_gain_sec,mean_gain_pct,win_rate,n_runs
+upstream_alns,task_0000,164.85907118278556,3.8936670568740706,1.0,1
+upstream_traffic,task_0000,-1.647875186172314,-0.038919771173072985,0.0,1
+upstream_traffic_no_local,task_0000,60.305358248762786,1.4243012840091458,1.0,1
+upstream_traffic_no_regret3,task_0000,-28.761406873353735,-0.6792913586657555,0.0,1
+upstream_traffic_no_t_related,task_0000,0.0,0.0,0.0,1
+upstream_traffic_no_t_worst,task_0000,-28.39400071365526,-0.6706139031260209,0.0,1
+upstream_traffic_uniform,task_0000,-53.30274344753707,-1.258912443905342,0.0,1
